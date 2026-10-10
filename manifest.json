@@ -1,12 +1,17 @@
 {
+  "version": "417912f",
   "files": {
-    "dstorage.dll": {
-      "sha256": "cae65787f61514bec6f012f44546e68b19e39d8854a9ab52af813370d44b272a",
-      "size": 206904
+    "UnityCrashHandler64.exe": {
+      "sha256": "d035f5c7c1bea4a876534b85de5fbd39dc34e2b9b70aa360c4c52f2caf2efe6c",
+      "size": 1736616
     },
     "UnityPlayer.dll": {
       "sha256": "5dcd2af9e14f6416d73c361369559666c31263e4863822e1241cbdbc00c2f667",
       "size": 37282216
+    },
+    "dstorage.dll": {
+      "sha256": "cae65787f61514bec6f012f44546e68b19e39d8854a9ab52af813370d44b272a",
+      "size": 206904
     },
     "dstoragecore.dll": {
       "sha256": "cf85b19a92a8276f8baca0db9bbcd60735bad50768deb303d310e84d5f4fdd11",
@@ -16,21 +21,9 @@
       "sha256": "ed6bda55ad55566d1c4e1af4498a0907fc2a7545a77a1651d08ac01026f402d3",
       "size": 667648
     },
-    "UnityCrashHandler64.exe": {
-      "sha256": "d035f5c7c1bea4a876534b85de5fbd39dc34e2b9b70aa360c4c52f2caf2efe6c",
-      "size": 1736616
-    },
     "D3D12/D3D12Core.dll": {
       "sha256": "625bd40005b1c3708695d5256ecf230d278e6b8edba5a88af70f3d91324f3052",
       "size": 4725304
-    },
-    "ghostanimationlearning_Data/globalgamemanagers.assets": {
-      "sha256": "607ec2af9b34cee3709c894577533d98d1b8b0a91a6233b4aa1ddf287ca51992",
-      "size": 1233768
-    },
-    "ghostanimationlearning_Data/level1": {
-      "sha256": "47e2d84da284ae4c2a7a35110e4d182d4852dfc334966d679391f40bfa95e732",
-      "size": 857960
     },
     "ghostanimationlearning_Data/RuntimeInitializeOnLoads.json": {
       "sha256": "a0d45504e187c84cd79140f43fcf6afa28a4ca84818ee169452f45bab70a32d9",
@@ -40,13 +33,33 @@
       "sha256": "7ff2ca52b4c151e597ed10a7424004aed2ed34f86665e7c72701d12c6226c9c6",
       "size": 6539
     },
+    "ghostanimationlearning_Data/app.info": {
+      "sha256": "6b8944be09d34288e91073810bfb608bd288684f497ebd640cca7935489a3873",
+      "size": 37
+    },
     "ghostanimationlearning_Data/boot.config": {
       "sha256": "53688d5c255ff8a057637baa184dd16dc0df09ea52dadbdc5f1672d694d6cc83",
       "size": 156
     },
-    "ghostanimationlearning_Data/sharedassets1.assets.resS": {
-      "sha256": "556b9f890b31d881d2beb5b260de5cc1d842db0de16388b2a58fa1297f5ada39",
-      "size": 174784
+    "ghostanimationlearning_Data/globalgamemanagers": {
+      "sha256": "de18dae207905f658e94ddb0b84bcb83c084609368ac6113a23e4c7b9bbdf60e",
+      "size": 195748
+    },
+    "ghostanimationlearning_Data/globalgamemanagers.assets": {
+      "sha256": "607ec2af9b34cee3709c894577533d98d1b8b0a91a6233b4aa1ddf287ca51992",
+      "size": 1233768
+    },
+    "ghostanimationlearning_Data/globalgamemanagers.assets.resS": {
+      "sha256": "26b24bbd0bdb7017ecbac3b829c0ed7c4848bc343af5702e96ebdb75a7258b04",
+      "size": 6174944
+    },
+    "ghostanimationlearning_Data/level0": {
+      "sha256": "29f2440126eb19329de44b01805fb0336616030f5b69954f0b1468310eead7f7",
+      "size": 1175772
+    },
+    "ghostanimationlearning_Data/level1": {
+      "sha256": "47e2d84da284ae4c2a7a35110e4d182d4852dfc334966d679391f40bfa95e732",
+      "size": 857960
     },
     "ghostanimationlearning_Data/resources.assets": {
       "sha256": "abeb45f713e16a2d32c89ef41d7a429dce39e4fb9ac12c8a5b00dfe85108f9a0",
@@ -56,169 +69,157 @@
       "sha256": "4ee875180aaad0f4f5803c6c8dfa44808c48515b18d25cd4b676b0a9b1243f56",
       "size": 1018032
     },
-    "ghostanimationlearning_Data/sharedassets0.assets.resS": {
-      "sha256": "cd9b06990e9ba355f19f47a05ec2458918c3e188835954141c5d98d8bb233ef3",
-      "size": 3925744
-    },
     "ghostanimationlearning_Data/sharedassets0.assets": {
       "sha256": "07e42d80882e05e2cc61830fb49ac72576a5926a6e7abd8f4966306f6cf8a214",
       "size": 8794012
+    },
+    "ghostanimationlearning_Data/sharedassets0.assets.resS": {
+      "sha256": "cd9b06990e9ba355f19f47a05ec2458918c3e188835954141c5d98d8bb233ef3",
+      "size": 3925744
     },
     "ghostanimationlearning_Data/sharedassets1.assets": {
       "sha256": "630b753c1d8a9887f35e0310fa413a39d0dbc77b3131c091559199598da9c11d",
       "size": 24752
     },
-    "ghostanimationlearning_Data/level0": {
-      "sha256": "29f2440126eb19329de44b01805fb0336616030f5b69954f0b1468310eead7f7",
-      "size": 1175772
+    "ghostanimationlearning_Data/sharedassets1.assets.resS": {
+      "sha256": "556b9f890b31d881d2beb5b260de5cc1d842db0de16388b2a58fa1297f5ada39",
+      "size": 174784
     },
-    "ghostanimationlearning_Data/globalgamemanagers": {
-      "sha256": "de18dae207905f658e94ddb0b84bcb83c084609368ac6113a23e4c7b9bbdf60e",
-      "size": 195748
+    "ghostanimationlearning_Data/Managed/Assembly-CSharp.dll": {
+      "sha256": "b46a2688e1c21739e474545905cfcacb18864293a20f998cfa3310d4d029e88f",
+      "size": 81408
     },
-    "ghostanimationlearning_Data/globalgamemanagers.assets.resS": {
-      "sha256": "26b24bbd0bdb7017ecbac3b829c0ed7c4848bc343af5702e96ebdb75a7258b04",
-      "size": 6174944
+    "ghostanimationlearning_Data/Managed/Mono.Security.dll": {
+      "sha256": "1849437c1d2fe7698c0fde2a9a6aad9a864372a373b7c1d887da902a36965b36",
+      "size": 241152
     },
-    "ghostanimationlearning_Data/app.info": {
-      "sha256": "6b8944be09d34288e91073810bfb608bd288684f497ebd640cca7935489a3873",
-      "size": 37
+    "ghostanimationlearning_Data/Managed/Newtonsoft.Json.dll": {
+      "sha256": "a56146202232958f46bd6a28b5a7da166aea123ee0d646735a46e5c341dfbf1f",
+      "size": 691712
     },
-    "ghostanimationlearning_Data/Managed/Unity.Multiplayer.Tools.Common.dll": {
-      "sha256": "3baf2cfebbae6e54abb54727cda0eb744fb390516704ca5cb8c6a14c5bdbcede",
-      "size": 44544
+    "ghostanimationlearning_Data/Managed/System.Buffers.dll": {
+      "sha256": "762f8fdbe975e05b76be5fe996c53ce7c75e4a2830f2f50b02a5948ef6ba0aeb",
+      "size": 4608
     },
-    "ghostanimationlearning_Data/Managed/UnityEngine.Physics2DModule.dll": {
-      "sha256": "47b338623d239a22d8495a15360262d852f6a4a32bfe8b881d63f781996624f2",
-      "size": 222128
+    "ghostanimationlearning_Data/Managed/System.Collections.Immutable.dll": {
+      "sha256": "5b1b1c83ba3d135c2fdfe425842fbe9c7432878b7e468623acb554c69b4c130f",
+      "size": 252680
     },
-    "ghostanimationlearning_Data/Managed/Unity.Mathematics.dll": {
-      "sha256": "cc314745d6227f243a30f1a87447245490380709204939b4d4101a8f64436d00",
-      "size": 5632
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.U2DRuntimeModule.dll": {
-      "sha256": "c4808d15635474595ca656cfc0af6ae75ca4fcd963acdf291721a78cbaa86add",
-      "size": 26544
-    },
-    "ghostanimationlearning_Data/Managed/Unity.Burst.Unsafe.dll": {
-      "sha256": "9d9c1ff52411decbee5d9f0d1cd61ebeaa222077aa77a52101ea3debafae98e2",
-      "size": 5632
-    },
-    "ghostanimationlearning_Data/Managed/System.Security.dll": {
-      "sha256": "02d51b98dc8c877124fea386c9fbf7264790aae381ab15577eb0e2d082d1bcc4",
-      "size": 320000
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.UnityAnalyticsModule.dll": {
-      "sha256": "c551a14a78cdd219f2cb933440b68287e85d7e572626f026ade8d07802cd8670",
-      "size": 60328
-    },
-    "ghostanimationlearning_Data/Managed/Unity.Multiplayer.Tools.NetworkSolutionInterface.dll": {
-      "sha256": "7583a1a940e1c442da51b8aae0daa54e3e101cace861f6f0e3cfbce55fb70ddd",
-      "size": 4096
-    },
-    "ghostanimationlearning_Data/Managed/Unity.VisualScripting.Flow.dll": {
-      "sha256": "a519c25307fa35bc3c0bb3eca4d9bdbae3daddc5a49dd441609ab39bee374f08",
-      "size": 335872
-    },
-    "ghostanimationlearning_Data/Managed/Unity.SurfaceCache.Runtime.dll": {
-      "sha256": "0e3dace53681f0b98dc546410e18958c006e979db18cca5c944dbf06c7f5bf49",
-      "size": 3584
-    },
-    "ghostanimationlearning_Data/Managed/Unity.TextMeshPro.dll": {
-      "sha256": "705cd0bb643195f8150bda17a10df0df38084808694385c1458944cc35c4e87e",
-      "size": 439296
-    },
-    "ghostanimationlearning_Data/Managed/Unity.Services.Core.Registration.dll": {
-      "sha256": "5400b6b7337f798ba28a066aa1e6f4b9b205009a908b814139c48b9acd9dea9d",
-      "size": 17920
-    },
-    "ghostanimationlearning_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll": {
-      "sha256": "ed7ce205f66eafe39bbb5d084d42e7fe11cb4b386ff208e5d5110891be0b7b37",
-      "size": 86016
-    },
-    "ghostanimationlearning_Data/Managed/Unity.Multiplayer.Tools.MetricTypes.dll": {
-      "sha256": "797274dee50e0911330e2bc6229d66a305b29b0982f320aa7aaa1ae58e6b85cc",
-      "size": 17408
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.TerrainModule.dll": {
-      "sha256": "3cb12f958b2a6a9d03974a0b812b696de2dbe24ee4a6072fa85724662471f54d",
-      "size": 131504
+    "ghostanimationlearning_Data/Managed/System.ComponentModel.Composition.dll": {
+      "sha256": "335d76d10ae5b80d1faae4833937b9166551ccc9e79ee8262d2da4d58843f79d",
+      "size": 257024
     },
     "ghostanimationlearning_Data/Managed/System.Configuration.dll": {
       "sha256": "d7139dd6b622233d316aac733b392b9c1a545375804f62685f57f9d36f1c7ac2",
       "size": 124928
     },
-    "ghostanimationlearning_Data/Managed/Unity.Services.Core.Components.dll": {
-      "sha256": "2775be1311e7d030f35124349ecd753317867892dcd0229c6f69435273a072d4",
-      "size": 9216
+    "ghostanimationlearning_Data/Managed/System.Core.dll": {
+      "sha256": "a4637c44a11ea827d686313cfca3f5191225d2a96f7eaf0f10aa32de446380d2",
+      "size": 1113088
     },
-    "ghostanimationlearning_Data/Managed/UnityEngine.PhysicsCore2DModule.dll": {
-      "sha256": "3b6fef6d99c1e105abfd01a3b69ca179ee7ace9a0b94628c19fdaea14ff03c4b",
-      "size": 450472
+    "ghostanimationlearning_Data/Managed/System.Data.DataSetExtensions.dll": {
+      "sha256": "80432a96154f8d2935b2f1c9e61b2ee6109fd6234e281327b3b297451c8931ba",
+      "size": 29696
     },
-    "ghostanimationlearning_Data/Managed/websocket-sharp.dll": {
-      "sha256": "0113ac17878d4fe992fa487c4fd9a8fa3850d4fa4b64cab45ecf782a3d6fef7a",
-      "size": 248320
+    "ghostanimationlearning_Data/Managed/System.Data.dll": {
+      "sha256": "ab47d362cff6f6e665cadbc8c6c81f9fa3612f23483a44d08b339347ac99f116",
+      "size": 2125312
     },
-    "ghostanimationlearning_Data/Managed/UnityEngine.DirectorModule.dll": {
-      "sha256": "296857a73dd84d4500ed6355d7d094fabefb0db2898915e97abeac466fbd3cd5",
-      "size": 41896
+    "ghostanimationlearning_Data/Managed/System.Drawing.dll": {
+      "sha256": "3c3586ba170c1788a8d3a4e419eb1f50f092070f4d81e90238b2fe6c5405cf2c",
+      "size": 489984
     },
-    "ghostanimationlearning_Data/Managed/unity-websocket-sharp.dll": {
-      "sha256": "c6fcecdb2d3b4cbc2dd6b0ee411f797bd0933b3f4c27a0ae6260c0b6db97c285",
-      "size": 214528
+    "ghostanimationlearning_Data/Managed/System.EnterpriseServices.dll": {
+      "sha256": "00595c8eea345fe0e47da702100e460aaaf8f14d27a24950b71d926cbf1201c4",
+      "size": 44544
     },
-    "ghostanimationlearning_Data/Managed/System.Runtime.Serialization.dll": {
-      "sha256": "685123acdbb6ac313e503e89f4831fed096be838ccb000b85b33ee903562807f",
-      "size": 934400
+    "ghostanimationlearning_Data/Managed/System.IO.Compression.FileSystem.dll": {
+      "sha256": "f45ca89827639a880dcbeab1917af99a5bd18aec4433fbcb2d7774ccf9fe7121",
+      "size": 18432
     },
-    "ghostanimationlearning_Data/Managed/UnityEngine.DSPGraphModule.dll": {
-      "sha256": "8056b02715e9d2a736631a4b5c5122723913e2850366306efade6dfd62835146",
-      "size": 32688
+    "ghostanimationlearning_Data/Managed/System.IO.Compression.dll": {
+      "sha256": "a2803c059bd49c7fe520673f7e2b06657bb0419b253a5267e3f1da14b357dd5a",
+      "size": 114688
+    },
+    "ghostanimationlearning_Data/Managed/System.Memory.dll": {
+      "sha256": "c4f030a2cba7da7cdcf493257c24560e203d355904aee490d645a935842f834a",
+      "size": 4608
+    },
+    "ghostanimationlearning_Data/Managed/System.Net.Http.dll": {
+      "sha256": "128b31fec424c70356952314abff2f6b1408f64b7613d2ae4bde5e84c2f8ac03",
+      "size": 122880
+    },
+    "ghostanimationlearning_Data/Managed/System.Numerics.dll": {
+      "sha256": "b968dc8852985029fd5dd08a1a9c3a6b8750ea4470cd677a5051c33fc5a08639",
+      "size": 119296
+    },
+    "ghostanimationlearning_Data/Managed/System.Reflection.Metadata.dll": {
+      "sha256": "afcfd6c166fe0d59f45cc6363082806f6a7ea8ceed9dc6c75eec9fd79ccb5717",
+      "size": 487584
     },
     "ghostanimationlearning_Data/Managed/System.Runtime.CompilerServices.Unsafe.dll": {
       "sha256": "fd67abc4c4af10affbcd42fd68a2a7bc361b26714afe6965d4d0d139459d8297",
       "size": 19256
     },
-    "ghostanimationlearning_Data/Managed/Unity.RenderPipelines.GPUDriven.Runtime.dll": {
-      "sha256": "a2110fd5424a4d7f54b836fbfb5a5c14f38a29de24c677446d65daebd9f1d5bf",
-      "size": 263168
+    "ghostanimationlearning_Data/Managed/System.Runtime.Serialization.dll": {
+      "sha256": "685123acdbb6ac313e503e89f4831fed096be838ccb000b85b33ee903562807f",
+      "size": 934400
     },
-    "ghostanimationlearning_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll": {
-      "sha256": "39f92c1b37821af02771f49e4167f02de685087831a7afa578b1f8ff454e651f",
-      "size": 25512
+    "ghostanimationlearning_Data/Managed/System.Runtime.dll": {
+      "sha256": "e0a7334b7ba419aaab6bd3bb6992d693e689341a9178172c9bf99c2aa6a085bd",
+      "size": 12288
     },
-    "ghostanimationlearning_Data/Managed/Unity.Services.Core.Environments.Internal.dll": {
-      "sha256": "95e7d5408e4ef1d3fafd67bd43f264e690652eeade85e19e4d4dd3f0a5463c8d",
-      "size": 3584
+    "ghostanimationlearning_Data/Managed/System.Security.dll": {
+      "sha256": "02d51b98dc8c877124fea386c9fbf7264790aae381ab15577eb0e2d082d1bcc4",
+      "size": 320000
     },
-    "ghostanimationlearning_Data/Managed/UnityEngine.PropertiesModule.dll": {
-      "sha256": "4e34125a1eb2f5c76f9e3dbd11fc8b521f69945f305f70ea7a7a08f1a65b7761",
-      "size": 124848
+    "ghostanimationlearning_Data/Managed/System.ServiceModel.Internals.dll": {
+      "sha256": "077333adc8bf20eb40e94d1909db2d07a16925a9192b69064f34eaf128804c8b",
+      "size": 215040
     },
-    "ghostanimationlearning_Data/Managed/Unity.Services.Core.Networking.dll": {
-      "sha256": "66af603491d0f6966f7d68071f6ca9dcb2f81b57c71d9d5328b53e4640b45415",
-      "size": 6656
+    "ghostanimationlearning_Data/Managed/System.Transactions.dll": {
+      "sha256": "6557e5029469211193ccec80dd4d3ad090f5eb87d80f5d5341d77a6d3506b64b",
+      "size": 35328
     },
-    "ghostanimationlearning_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll": {
-      "sha256": "bf5ae404eff54894e552e3df8273ac2b9328d76f5b64600238d650cd00d87c0b",
-      "size": 3584
+    "ghostanimationlearning_Data/Managed/System.Xml.Linq.dll": {
+      "sha256": "fd300e794b9ccd85d95bbab54e282da1333faa20a9209457944e831c27452b00",
+      "size": 136704
     },
-    "ghostanimationlearning_Data/Managed/UnityEngine.WindModule.dll": {
-      "sha256": "b6a24338eafbdf2663096484748f346679aea0a3fdd0de567b45ea0ca350e36d",
-      "size": 28072
+    "ghostanimationlearning_Data/Managed/System.Xml.dll": {
+      "sha256": "32129a7d847a5efeacee6bd4b0d6bbffc8923551c5446a8c216d8ef1191b1de1",
+      "size": 3160064
     },
-    "ghostanimationlearning_Data/Managed/UnityEngine.CrashReportingModule.dll": {
-      "sha256": "02f586c32624e3418a1ca936a257a895198aa06de1422b44c2835ba52993245b",
-      "size": 28080
+    "ghostanimationlearning_Data/Managed/System.dll": {
+      "sha256": "d26cada0fc3dcae061f0fa421df15a082cb35ccf81ccaeebc8b0e2d2e6877099",
+      "size": 2641920
     },
-    "ghostanimationlearning_Data/Managed/Unity.Multiplayer.Tools.NetworkSimulator.Runtime.dll": {
-      "sha256": "94208935c13b086875271ff9e72b911e27d8912bccd8581e0ebcc530f3f47994",
-      "size": 33792
+    "ghostanimationlearning_Data/Managed/Unity.AI.Navigation.dll": {
+      "sha256": "9f1c49bf789648bb08ef3a2a085e1c30107eb4e7bb948956f4f65443c94d3316",
+      "size": 23040
     },
-    "ghostanimationlearning_Data/Managed/Unity.VisualScripting.Core.dll": {
-      "sha256": "4a64be6b71e9a82ecf77ec7859f1cd6dc1453d22dcc7e212c0f539aefa6ee08e",
-      "size": 550400
+    "ghostanimationlearning_Data/Managed/Unity.Burst.Unsafe.dll": {
+      "sha256": "9d9c1ff52411decbee5d9f0d1cd61ebeaa222077aa77a52101ea3debafae98e2",
+      "size": 5632
+    },
+    "ghostanimationlearning_Data/Managed/Unity.Burst.dll": {
+      "sha256": "a60e1f1486b32474bef93faee17b31cde151c65514aae25c5b57e90ad4a7bbc7",
+      "size": 296960
+    },
+    "ghostanimationlearning_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll": {
+      "sha256": "ff50383f807f9692e4913b97e47d86fefcb8faa33d6d48cd3e3fd6fc7ffb448d",
+      "size": 5120
+    },
+    "ghostanimationlearning_Data/Managed/Unity.Collections.dll": {
+      "sha256": "54d5b7c3be68c73b50d3827b905b885632eac9884398d653f056d5d9ccd9dabc",
+      "size": 439808
+    },
+    "ghostanimationlearning_Data/Managed/Unity.InputSystem.ForUI.dll": {
+      "sha256": "9a9e0483a1cb5180eacf0b8da4f3300a0558f91712fe50b6ab50e87a30c2e83b",
+      "size": 15360
+    },
+    "ghostanimationlearning_Data/Managed/Unity.InputSystem.dll": {
+      "sha256": "c89b072cb9185636e0f4ed1c5612c1ade14cb202c385066b7a5be5f930c65af9",
+      "size": 1094656
     },
     "ghostanimationlearning_Data/Managed/Unity.InternalAPIEngineBridge.004.dll": {
       "sha256": "1344c3b13795a48856a04c1c0d6040f702c6cdf278f67fd87e7b7176f943d42f",
@@ -228,605 +229,109 @@
       "sha256": "50236d3cbaf46ed0d252724091b17ff3ea5a32afe7def43b915659ef1b34e61f",
       "size": 3584
     },
-    "ghostanimationlearning_Data/Managed/UnityEngine.ScreenCaptureModule.dll": {
-      "sha256": "ac5895945b896f30d862507e70a4149a3120a85ead8a34825646e86807b8c9c0",
-      "size": 27560
-    },
-    "ghostanimationlearning_Data/Managed/Unity.Services.Authentication.PlayerAccounts.dll": {
-      "sha256": "abe8075377a53296efac031e561c4626660ad84cf8d57bc76a582b10e39cdb3a",
-      "size": 36864
+    "ghostanimationlearning_Data/Managed/Unity.Mathematics.dll": {
+      "sha256": "cc314745d6227f243a30f1a87447245490380709204939b4d4101a8f64436d00",
+      "size": 5632
     },
     "ghostanimationlearning_Data/Managed/Unity.Multiplayer.Center.Common.dll": {
       "sha256": "f97f172a801f54981fb5ff95a6f7cc1af9b864055ce1c0aba51f0da4a63386d8",
       "size": 8704
     },
-    "ghostanimationlearning_Data/Managed/Unity.Multiplayer.Tools.NetVis.Configuration.dll": {
-      "sha256": "d6486407479810465e352f7e6ce40ac98aaa57663322f092f20370d8cba350fe",
-      "size": 17920
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.UnityConsentModule.dll": {
-      "sha256": "d0d128466654cde0544482e94b68c44bf5031d875923620e03097c69a621e081",
-      "size": 16296
-    },
-    "ghostanimationlearning_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Configuration.dll": {
-      "sha256": "1c7734177b3dee52798ef556c709de737ca9c0e1ed5842191b7b871a2d604d36",
-      "size": 20480
-    },
-    "ghostanimationlearning_Data/Managed/Unity.Burst.dll": {
-      "sha256": "a60e1f1486b32474bef93faee17b31cde151c65514aae25c5b57e90ad4a7bbc7",
-      "size": 296960
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.VectorGraphicsModule.dll": {
-      "sha256": "d2e3b21a5bb9832640b096793e174d91a971f49675c06eb2310b5b39543fe805",
-      "size": 227760
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.StreamingModule.dll": {
-      "sha256": "179e202b51ca7069bef667aa9c31fa7cefd1328d1cbf122eb4401ede785262bd",
-      "size": 27048
-    },
-    "ghostanimationlearning_Data/Managed/System.EnterpriseServices.dll": {
-      "sha256": "00595c8eea345fe0e47da702100e460aaaf8f14d27a24950b71d926cbf1201c4",
-      "size": 44544
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.MathematicsModule.dll": {
-      "sha256": "b4b8f19efd4dadbd4ece925fcef614348e2416bf4f1a1e3c717400cef6933819",
-      "size": 740776
-    },
-    "ghostanimationlearning_Data/Managed/mscorlib.dll": {
-      "sha256": "f7698bd46af58d3ee9dac59a286cfedfd28e51f71c0fe3940671a3ccc7af5711",
-      "size": 4632064
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.AMDModule.dll": {
-      "sha256": "526735259999a0aeb6a46a1cb116cf78baafadcf3408786e68a687d1e63fedc3",
-      "size": 21936
-    },
-    "ghostanimationlearning_Data/Managed/System.IO.Compression.dll": {
-      "sha256": "a2803c059bd49c7fe520673f7e2b06657bb0419b253a5267e3f1da14b357dd5a",
-      "size": 114688
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll": {
-      "sha256": "58c24d00c4d156bf96b17459e4bff80da41351159943c3d040036cccb49512d6",
-      "size": 35752
-    },
-    "ghostanimationlearning_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll": {
-      "sha256": "f0738cf03e64ccfb02dfa34a79c856f9efb329b1434573db6f01d343dcc579a6",
-      "size": 3584
-    },
-    "ghostanimationlearning_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll": {
-      "sha256": "741e252d8cd5ab1fc7747c254886af36e90b2ce1bc1592c1220eeddecd1c1952",
-      "size": 3584
-    },
-    "ghostanimationlearning_Data/Managed/netstandard.dll": {
-      "sha256": "6ae62e082dc494a2433984177f60ca4db5fae69b1f360a8b33754172b310b8c5",
-      "size": 90112
-    },
-    "ghostanimationlearning_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Component.dll": {
-      "sha256": "192f7aa81633d06a6b40170759d618ed9143d8c160f6d4b14324147f6700ca7e",
-      "size": 9216
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.AnimationModule.dll": {
-      "sha256": "85169723ffd48c876e331e2f953a60659662ba01dd559dc837599d6566835474",
-      "size": 218536
-    },
-    "ghostanimationlearning_Data/Managed/Unity.Services.Core.dll": {
-      "sha256": "7f1e86d1d98cacfe6685bfafbc33d182a93ddeeb42bbaeffe71dfb3d9b57926a",
-      "size": 15360
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.ParticleSystemModule.dll": {
-      "sha256": "5c92c2cd0abae5a837269308602971f12f7843a5f15c8da8bb96f4853a2fbb80",
-      "size": 168880
-    },
-    "ghostanimationlearning_Data/Managed/System.Core.dll": {
-      "sha256": "a4637c44a11ea827d686313cfca3f5191225d2a96f7eaf0f10aa32de446380d2",
-      "size": 1113088
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.SubstanceModule.dll": {
-      "sha256": "d1b9e00950a98f74cb4476c28d1c48c359f6681fbebc507816fae73291213dfc",
-      "size": 30640
+    "ghostanimationlearning_Data/Managed/Unity.Multiplayer.Tools.Adapters.Ngo1.dll": {
+      "sha256": "ca3fdcff4ea12332cd8e08bdc7223816684e48331416c305ad3866dea9cf137c",
+      "size": 18432
     },
     "ghostanimationlearning_Data/Managed/Unity.Multiplayer.Tools.Adapters.Ngo1WithUtp2.dll": {
       "sha256": "5e850effc18fca1f7c88fad28b8901388816eddb52a07bab5c458baa0ab254cb",
       "size": 5120
     },
-    "ghostanimationlearning_Data/Managed/UnityEngine.IMGUIModule.dll": {
-      "sha256": "b3168e9a044d3c4414c593bc1cd38c508a2b201a6ec5b87aa9e112fea92d2c87",
-      "size": 188840
-    },
-    "ghostanimationlearning_Data/Managed/Unity.Multiplayer.Tools.Adapters.Ngo1.dll": {
-      "sha256": "ca3fdcff4ea12332cd8e08bdc7223816684e48331416c305ad3866dea9cf137c",
-      "size": 18432
-    },
-    "ghostanimationlearning_Data/Managed/Unity.Services.Core.Threading.dll": {
-      "sha256": "056f2d07395e41b4bcbaca24c4c09b7f7abb6e06feaa4c194f4fa14d4f78e6bb",
-      "size": 5632
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.ClusterRendererModule.dll": {
-      "sha256": "022bd10d5e25df61a0d3db136a4b3dfa29351fe7098439e0c37a9086e8cca67b",
-      "size": 28080
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.VirtualTexturingModule.dll": {
-      "sha256": "d3d7606838c5ec0ee800545b312a24de37d3849a01b4e063b935b0717c7c97b1",
-      "size": 43440
-    },
-    "ghostanimationlearning_Data/Managed/Unity.Networking.Transport.dll": {
-      "sha256": "df5e98e2427cb574dd627be5fe153bfe6414ddc15578d7d575e62b3ccc8a347f",
-      "size": 216064
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.InsightsModule.dll": {
-      "sha256": "67847130b47ee428578fa0c8af38c416ba9e3f32a66b7a0561502679f946dc80",
-      "size": 15784
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.dll": {
-      "sha256": "3f5474a8e192ba126fd41b582639e18c53f1cd159c7dae9852b0fad815235878",
-      "size": 210352
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.AndroidJNIModule.dll": {
-      "sha256": "4fb12b1e655c55b6398a0a5e25c791ea73a6fd809820f34a81570eef70169e14",
-      "size": 120752
-    },
-    "ghostanimationlearning_Data/Managed/Unity.Services.Core.Scheduler.dll": {
-      "sha256": "a0d8e2334a73d3cf98a3f64f0ad16043aee5d00dd2b0649436e58858e075305c",
-      "size": 10752
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.UIModule.dll": {
-      "sha256": "5e1626fb07c6b00f93230672f7a987e09234c98afa6b93a3e3213e5b846a2b00",
-      "size": 54192
-    },
-    "ghostanimationlearning_Data/Managed/Unity.Netcode.Runtime.dll": {
-      "sha256": "ebf10696d6fb94d9cd2e54c4c59c2eed261793fc3e70e10757673bf674e49df4",
-      "size": 614400
-    },
-    "ghostanimationlearning_Data/Managed/Unity.Services.Core.Environments.dll": {
-      "sha256": "26ce7ab899fcc563d9d60ed043a84c7680a4b8a668c09776c936ffd6f99db755",
-      "size": 4096
-    },
-    "ghostanimationlearning_Data/Managed/Newtonsoft.Json.dll": {
-      "sha256": "a56146202232958f46bd6a28b5a7da166aea123ee0d646735a46e5c341dfbf1f",
-      "size": 691712
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.LocalizationModule.dll": {
-      "sha256": "263266661cc77f0106a688694e2bdc83e3632797a2604a1b3edae660db266298",
-      "size": 28080
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll": {
-      "sha256": "8fbda7c620c75d24f0e666997d33a5efb10e758ae71bfccf05d6bd4c2080ba37",
-      "size": 28592
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.InputModule.dll": {
-      "sha256": "5993245d344a288e9a61ddde09b329c60a2a47cbebc05cf39aa84ba99d60dd29",
-      "size": 30632
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.IdentifiersModule.dll": {
-      "sha256": "d963560a918b55c2b8a6b007bf551907d6220f98cf6792dd777ee80bf6ed65ad",
-      "size": 16816
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.GridModule.dll": {
-      "sha256": "ca70fce3da5d5b320013bf0315ab584a1fbd188f070e96d32eec940fbe5b6a3d",
-      "size": 32176
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.SubsystemsModule.dll": {
-      "sha256": "590ff643430b94112afa268fb4aa56981553f44b9d5f2816e40ca116e6992088",
-      "size": 42416
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.MultiplayerModule.dll": {
-      "sha256": "03aed58fdeb554267c7b34c32ce1b59af3db0d74c6ef30af40aac0ac4cfd1766",
-      "size": 17840
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.UnityConnectModule.dll": {
-      "sha256": "29986257727c6b728a9d598b0986662db550079a93b507fde2ee9e8d314d3dd1",
-      "size": 29096
-    },
-    "ghostanimationlearning_Data/Managed/Unity.ProBuilder.Csg.dll": {
-      "sha256": "d1dec64adf1d111cb07391b968763a0ecc7de82e7bcea76d0acceee9ad203be4",
-      "size": 16896
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.HierarchyModule.dll": {
-      "sha256": "192e0c48272cd90ff610723794ad7893142fe6e78975e87059c2e96864156b19",
-      "size": 100264
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.TerrainPhysicsModule.dll": {
-      "sha256": "024bf25f72f458df6347d0cc93dcef2ac7691bb7dc1881db8f9a3f50b1d8c7ba",
-      "size": 27056
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.VideoModule.dll": {
-      "sha256": "be1c3811c83d86dc6854a4981d327712d3bb2442223cbaf345ab4d011e427ec5",
-      "size": 48552
-    },
-    "ghostanimationlearning_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll": {
-      "sha256": "30597b51713c97e92f3fc02dcc7d0806bbbab52b15f098e510cf12fab2a94649",
-      "size": 722432
-    },
-    "ghostanimationlearning_Data/Managed/Unity.Collections.dll": {
-      "sha256": "54d5b7c3be68c73b50d3827b905b885632eac9884398d653f056d5d9ccd9dabc",
-      "size": 439808
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.SpriteMaskModule.dll": {
-      "sha256": "6ae4885d058c9e36266dac3ddd680126eea04fff1ac88bc5bae65429df1a0c5a",
-      "size": 29608
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.TextRenderingModule.dll": {
-      "sha256": "edb493c7c5fe0945b562275616714d63ee1ce3c48f83b2d5b8b173510750ce0b",
-      "size": 39336
-    },
-    "ghostanimationlearning_Data/Managed/System.Drawing.dll": {
-      "sha256": "3c3586ba170c1788a8d3a4e419eb1f50f092070f4d81e90238b2fe6c5405cf2c",
-      "size": 489984
-    },
-    "ghostanimationlearning_Data/Managed/Assembly-CSharp.dll": {
-      "sha256": "b46a2688e1c21739e474545905cfcacb18864293a20f998cfa3310d4d029e88f",
-      "size": 81408
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.RenderAs2DModule.dll": {
-      "sha256": "0ca1e122a87c765e60ad15f5a6fd4872996732933a39b5d267f8617390078569",
-      "size": 27056
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.AudioModule.dll": {
-      "sha256": "ef5a2bac2ccfea9617137efd0708165dcbcb2b3a4d08b21c67fa2dfcb78af591",
-      "size": 142768
-    },
-    "ghostanimationlearning_Data/Managed/System.Memory.dll": {
-      "sha256": "c4f030a2cba7da7cdcf493257c24560e203d355904aee490d645a935842f834a",
-      "size": 4608
-    },
-    "ghostanimationlearning_Data/Managed/System.Reflection.Metadata.dll": {
-      "sha256": "afcfd6c166fe0d59f45cc6363082806f6a7ea8ceed9dc6c75eec9fd79ccb5717",
-      "size": 487584
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.AIModule.dll": {
-      "sha256": "a0b82fdaeab698d6cf6d1cf76eea8ad5f172a8cbe7d6b0664c3b1a0bdf066066",
-      "size": 86440
-    },
-    "ghostanimationlearning_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll": {
-      "sha256": "ff50383f807f9692e4913b97e47d86fefcb8faa33d6d48cd3e3fd6fc7ffb448d",
-      "size": 5120
-    },
-    "ghostanimationlearning_Data/Managed/System.Data.DataSetExtensions.dll": {
-      "sha256": "80432a96154f8d2935b2f1c9e61b2ee6109fd6234e281327b3b297451c8931ba",
-      "size": 29696
-    },
-    "ghostanimationlearning_Data/Managed/Unity.VisualScripting.State.dll": {
-      "sha256": "e90dc15561899aa102fc2a415e2c3b6ea5cc0c3f0d782230e67a49fd9741d41f",
-      "size": 27136
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.NVIDIAModule.dll": {
-      "sha256": "06b41139018439f28c11ce13527d717aa41a3279b69b6c31b146650f6e3d9626",
-      "size": 40360
-    },
-    "ghostanimationlearning_Data/Managed/Unity.ProBuilder.Poly2Tri.dll": {
-      "sha256": "7d4a264aea2cada8f12d7a0fe95f65765fd5d476ac62e3c4766d45b42c7ee24a",
-      "size": 34304
-    },
-    "ghostanimationlearning_Data/Managed/Unity.UnifiedRayTracing.Runtime.dll": {
-      "sha256": "da363c7367650eeb1de81cf7fd7d64a45b6b99a94a576e921e2e21823a34ab25",
-      "size": 91648
-    },
-    "ghostanimationlearning_Data/Managed/System.Numerics.dll": {
-      "sha256": "b968dc8852985029fd5dd08a1a9c3a6b8750ea4470cd677a5051c33fc5a08639",
-      "size": 119296
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.UI.dll": {
-      "sha256": "a0dfa803973a84862821466edc78ef3505e4bcfc121822c1348de68d5402e44c",
-      "size": 262144
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.PhysicsBackendPhysXModule.dll": {
-      "sha256": "5733f271a93d3c3ec165295f7d2eda2012b46364c550e1fa241774b4ecdf9f3b",
-      "size": 14248
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.AdaptivePerformanceModule.dll": {
-      "sha256": "d282a48a5d88db7ac4ba46512a4d8489b7780c8bb9791d3384c3eb7a459bd1a3",
-      "size": 118184
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.AssetBundleModule.dll": {
-      "sha256": "58e4b540d553319b364e38e72804938089f7e6df27f87a41d62dc41aeb98b118",
-      "size": 42408
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.JSONSerializeModule.dll": {
-      "sha256": "d987adaf3f537d168bed9ea53b726e9e10fb673e003c88f34665e6d14aac0d5c",
-      "size": 28080
-    },
-    "ghostanimationlearning_Data/Managed/Unity.Multiplayer.Tools.NetStats.dll": {
-      "sha256": "b208b613d79e26f5a39c59edd773707838a354a7986510aadf4789ea7bfd75ff",
-      "size": 46592
-    },
-    "ghostanimationlearning_Data/Managed/System.Xml.dll": {
-      "sha256": "32129a7d847a5efeacee6bd4b0d6bbffc8923551c5446a8c216d8ef1191b1de1",
-      "size": 3160064
-    },
-    "ghostanimationlearning_Data/Managed/Unity.Services.Core.Internal.dll": {
-      "sha256": "b27cf3c45f0f37e0a5ad4cefccc98eebfe1845305d9ca26c167ab2fd087627af",
-      "size": 60416
-    },
-    "ghostanimationlearning_Data/Managed/Unity.Multiplayer.Tools.Initialization.dll": {
-      "sha256": "be044ee088de040baee62b442b3b0eeb8c505ac3b85173dd47c1c424539fc836",
-      "size": 4608
-    },
-    "ghostanimationlearning_Data/Managed/Unity.Services.Wire.Internal.dll": {
-      "sha256": "7f220d092c8e09664a17238acc5f38fd53c2ace74cbe931f92cdaf419ae2f38f",
-      "size": 54272
-    },
-    "ghostanimationlearning_Data/Managed/Unity.Services.Core.Configuration.dll": {
-      "sha256": "421be08fdcc8a227a71e8e83bb72b3868b1a70d2beaf65b5e5aa11bd3fa7ba7e",
-      "size": 11776
-    },
-    "ghostanimationlearning_Data/Managed/System.Runtime.dll": {
-      "sha256": "e0a7334b7ba419aaab6bd3bb6992d693e689341a9178172c9bf99c2aa6a085bd",
-      "size": 12288
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.VehiclesModule.dll": {
-      "sha256": "84f29a9779ed662aaf6a24ddd58b51946e7422785cd960b14d278785b173e585",
-      "size": 32688
-    },
-    "ghostanimationlearning_Data/Managed/System.ServiceModel.Internals.dll": {
-      "sha256": "077333adc8bf20eb40e94d1909db2d07a16925a9192b69064f34eaf128804c8b",
-      "size": 215040
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.SpriteShapeModule.dll": {
-      "sha256": "6e7b67fa71f1896a35603b1358273e318ab23d687d28969071cf43bb71f3f4b1",
-      "size": 33712
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.VFXModule.dll": {
-      "sha256": "54f1aeecc837b18f62a61e07c6e5a178f8f3544c034865791b18f42cc475911d",
-      "size": 81832
-    },
-    "ghostanimationlearning_Data/Managed/System.ComponentModel.Composition.dll": {
-      "sha256": "335d76d10ae5b80d1faae4833937b9166551ccc9e79ee8262d2da4d58843f79d",
-      "size": 257024
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.XRModule.dll": {
-      "sha256": "267b21a1678ab39b89a1f056b9e97651a48c7c5d9ec22713e828227e7ffab225",
-      "size": 95656
-    },
-    "ghostanimationlearning_Data/Managed/Unity.Multiplayer.Tools.NetworkProfiler.Runtime.dll": {
-      "sha256": "0a4a5eaa11c1db70f401fdadd55e1a0dff85cfa89da46018905143242ddacff5",
-      "size": 10240
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.UnityCurlModule.dll": {
-      "sha256": "bb9b537257557920e008de5f5620f73f07d11165829b04b8c3724e0ecb662f64",
-      "size": 27560
-    },
-    "ghostanimationlearning_Data/Managed/Unity.Services.QoS.dll": {
-      "sha256": "361ea22da671b672bd68ca65ee664571aa5dcb845f2672962294843024249629",
-      "size": 121856
-    },
-    "ghostanimationlearning_Data/Managed/Unity.Services.Core.Device.dll": {
-      "sha256": "87cbd77cf1e19b4eb403999c6f6771031cf7441351607e09fabe595ffa22eb65",
-      "size": 6144
-    },
-    "ghostanimationlearning_Data/Managed/Unity.VisualScripting.DocCodeExamples.dll": {
-      "sha256": "b286a5106669cac6b290565a902b28b2fddbbc78439ca2b5c64fb7c8de14428e",
-      "size": 6144
-    },
-    "ghostanimationlearning_Data/Managed/System.Buffers.dll": {
-      "sha256": "762f8fdbe975e05b76be5fe996c53ce7c75e4a2830f2f50b02a5948ef6ba0aeb",
-      "size": 4608
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.PerformanceReportingModule.dll": {
-      "sha256": "6dd063a783f762f147609fa97f4c21fe51c79106a8c449d85a6503e6983375cc",
-      "size": 26544
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.InputLegacyModule.dll": {
-      "sha256": "799f412303729d09479bf85d025e06296563ca968d40b4f365b138949d1fb83e",
-      "size": 41896
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.UnityWebRequestModule.dll": {
-      "sha256": "2b2d06233f651d13a49c34ed3b030f6933ffcc000b4bb391739160c34f565291",
-      "size": 79272
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.PhysicsModule.dll": {
-      "sha256": "247687fc451fdb2bbdbc095bcd4f461da84708f4b5af85534622c858c9fa7e10",
-      "size": 180144
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.SharedInternalsModule.dll": {
-      "sha256": "c0b02a3d2820f9120c4a8521b9019992c7b56d93064b2261754efa9110bbbc56",
-      "size": 36784
-    },
-    "ghostanimationlearning_Data/Managed/Unity.Multiplayer.Tools.NetStatsReporting.dll": {
-      "sha256": "42b7727ef3eb98063baa0a47e3b0de940972b0089c62a27285cebc6de8ba1513",
-      "size": 3584
-    },
-    "ghostanimationlearning_Data/Managed/Unity.RenderPipelines.Universal.2D.Runtime.dll": {
-      "sha256": "6ba43577052982ae1fc43f26210d64aec7b4719e0f58d411d85aca54d1796ed1",
-      "size": 198656
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll": {
-      "sha256": "b93e73b8d164645c581f2e21990f5fb7034bef0521762064f9ae0934306d1730",
-      "size": 332200
-    },
-    "ghostanimationlearning_Data/Managed/System.Net.Http.dll": {
-      "sha256": "128b31fec424c70356952314abff2f6b1408f64b7613d2ae4bde5e84c2f8ac03",
-      "size": 122880
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll": {
-      "sha256": "e490241284fb20412134d2aa38601106ab9ec03a37af77963752a341bf6a94d0",
-      "size": 30120
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll": {
-      "sha256": "cb6aaefdfc6e2e73c5186e9779c12900c14d6549d82acfbabe9a46cd331584ec",
-      "size": 29608
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.AccessibilityModule.dll": {
-      "sha256": "6090ab2ad0f4f44c72b429d568a4e86d23a8fb0101921e30efa0c461253da2ff",
-      "size": 49072
-    },
-    "ghostanimationlearning_Data/Managed/Unity.AI.Navigation.dll": {
-      "sha256": "9f1c49bf789648bb08ef3a2a085e1c30107eb4e7bb948956f4f65443c94d3316",
-      "size": 23040
-    },
-    "ghostanimationlearning_Data/Managed/Unity.InputSystem.ForUI.dll": {
-      "sha256": "9a9e0483a1cb5180eacf0b8da4f3300a0558f91712fe50b6ab50e87a30c2e83b",
-      "size": 15360
-    },
-    "ghostanimationlearning_Data/Managed/Unity.Scripting.dll": {
-      "sha256": "881c00ee513ea7a39fab1d9da2d1e56af4b157154beb0dd9c4073f3aebe32bd1",
-      "size": 68520
-    },
-    "ghostanimationlearning_Data/Managed/Unity.Services.Core.Analytics.dll": {
-      "sha256": "0601efcb5db37c3629c9f9fe2781a58708a9fe1db1ade75135556b8415cd0786",
-      "size": 4096
-    },
     "ghostanimationlearning_Data/Managed/Unity.Multiplayer.Tools.Adapters.Utp2.dll": {
       "sha256": "838460994973cb9b7eb9d2c4fb1c6c6a77eea9893b7d9d7a8029ca43b9d4ef83",
       "size": 6144
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.InputForUIModule.dll": {
-      "sha256": "1a713129d365bf9a8229bff4ec5b57b0ddd75652d42eeff2cf1016d244b2b934",
-      "size": 55728
-    },
-    "ghostanimationlearning_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll": {
-      "sha256": "2c39a0babda089593673191c3b6267d065ed380be43623da4a3296d630f6b618",
-      "size": 7680
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.HotReloadModule.dll": {
-      "sha256": "8e95a32a0db34444ae07d96ce45f03b7cc3b3b6207399a3ddbd8a170abbecf7f",
-      "size": 25520
-    },
-    "ghostanimationlearning_Data/Managed/System.IO.Compression.FileSystem.dll": {
-      "sha256": "f45ca89827639a880dcbeab1917af99a5bd18aec4433fbcb2d7774ccf9fe7121",
-      "size": 18432
-    },
-    "ghostanimationlearning_Data/Managed/Unity.RenderPipelines.Core.Runtime.Shared.dll": {
-      "sha256": "a9425764057ba462705d12bf655e1ba7d116b92eaafaeedf16d62b42117749be",
-      "size": 11264
-    },
-    "ghostanimationlearning_Data/Managed/System.Data.dll": {
-      "sha256": "ab47d362cff6f6e665cadbc8c6c81f9fa3612f23483a44d08b339347ac99f116",
-      "size": 2125312
-    },
-    "ghostanimationlearning_Data/Managed/Unity.PathTracing.Runtime.dll": {
-      "sha256": "aaa1719a78da8e96b1ab6a9b8422a340c42995e3394b919f30ab8ec1c1833d87",
-      "size": 142848
-    },
-    "ghostanimationlearning_Data/Managed/Unity.Timeline.dll": {
-      "sha256": "688105b4e70c4334f1b68a87069a13f7c1c40f76fbf61769fb266d19597d001a",
-      "size": 121856
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.GameCenterModule.dll": {
-      "sha256": "beda7af14db2518c512bddb7241b079579e62fbc06b5cbc6b7ec3cf1609aa7d5",
-      "size": 45480
-    },
-    "ghostanimationlearning_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll": {
-      "sha256": "d759fd76d232fa6f0ad51cc86205e0a580191d9be7826c968e241b1979e4ef62",
-      "size": 1092096
-    },
-    "ghostanimationlearning_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Implementation.dll": {
-      "sha256": "021a4f65cee186f8290a38ed1db62bb6b11c803e761985a62a50521423fec3e0",
-      "size": 51712
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.HierarchyCoreModule.dll": {
-      "sha256": "96b57194abc5e03416b6bd6666e6f8d3dfa426841fcba3e29ccfa094312ad6c3",
-      "size": 105392
-    },
-    "ghostanimationlearning_Data/Managed/Unity.ProBuilder.KdTree.dll": {
-      "sha256": "1545f1e5f54351bc263a3090bb2ef7a2ab23370e9bc24b3f3d5a19338bafb5e2",
-      "size": 18944
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.ClothModule.dll": {
-      "sha256": "abb72fd9af670fea254697e6643d7ee1949a18ffa9a901cbe6d00bbffee28602",
-      "size": 37296
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.TLSModule.dll": {
-      "sha256": "8b0dbcc72e110fea67d168182c3ef750701354be76fdc005dd20cc4ce2210b0a",
-      "size": 33200
-    },
-    "ghostanimationlearning_Data/Managed/Mono.Security.dll": {
-      "sha256": "1849437c1d2fe7698c0fde2a9a6aad9a864372a373b7c1d887da902a36965b36",
-      "size": 241152
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.GIModule.dll": {
-      "sha256": "3181be1039b60876920acb697f8c3d73d5f73ba5bf79b46dcf66ef912490a2d3",
-      "size": 25520
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll": {
-      "sha256": "eb80258d8a9e06331400aea57548ad9535aaa46252887e2a8392c84f8dfe9277",
-      "size": 36784
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll": {
-      "sha256": "efa96d45f33b0c3b744a299315d29ca1144b9a07e112b27de8645a8347934dca",
-      "size": 25520
-    },
-    "ghostanimationlearning_Data/Managed/System.Transactions.dll": {
-      "sha256": "6557e5029469211193ccec80dd4d3ad090f5eb87d80f5d5341d77a6d3506b64b",
-      "size": 35328
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.CoreModule.dll": {
-      "sha256": "80187c2f82c8bb82f8425f87df630152121cd0076c75d84996004ca162d8d33c",
-      "size": 1974192
-    },
-    "ghostanimationlearning_Data/Managed/Unity.Services.Authentication.dll": {
-      "sha256": "9e464d53dbf4781e57a49743d8c2715ae0b379466e51971a89987f29fd7cf98b",
-      "size": 139776
-    },
-    "ghostanimationlearning_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll": {
-      "sha256": "cb6fdd1eab602752bca949b1fdd4eba286ee4cf232d4afa39a6961346db8dd66",
-      "size": 4096
-    },
-    "ghostanimationlearning_Data/Managed/System.Collections.Immutable.dll": {
-      "sha256": "5b1b1c83ba3d135c2fdfe425842fbe9c7432878b7e468623acb554c69b4c130f",
-      "size": 252680
-    },
-    "ghostanimationlearning_Data/Managed/Unity.Services.Multiplayer.dll": {
-      "sha256": "565997ebbd3ef9b153fcc84aa4f4bb705f6478bec97f0edbbd8f66638e1e2634",
-      "size": 660992
-    },
-    "ghostanimationlearning_Data/Managed/Unity.Profiling.Core.dll": {
-      "sha256": "f6f5a09137f53bcc10ca4b0dea0393c90d88172584306e43ca72bb23477a4b87",
-      "size": 8192
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.ScriptingModule.dll": {
-      "sha256": "f6757a8980bacb185ac7b689a5cf552be780adb4adb8c91fe678eee056460df5",
-      "size": 27560
     },
     "ghostanimationlearning_Data/Managed/Unity.Multiplayer.Tools.Adapters.dll": {
       "sha256": "0321d50ae5d3b9cddeb762fde10082fdf40dbfa0c723c2cf8ce2e924b8fd4d2e",
       "size": 11776
     },
-    "ghostanimationlearning_Data/Managed/UnityEngine.ImageConversionModule.dll": {
-      "sha256": "f6e2c604acdd5de19abeb1230f0359e73a2c1972a2c95e30eefb9d9fab9d7bb5",
-      "size": 33712
+    "ghostanimationlearning_Data/Managed/Unity.Multiplayer.Tools.Common.dll": {
+      "sha256": "3baf2cfebbae6e54abb54727cda0eb744fb390516704ca5cb8c6a14c5bdbcede",
+      "size": 44544
     },
-    "ghostanimationlearning_Data/Managed/UnityEngine.UmbraModule.dll": {
-      "sha256": "8c7f697bf2a2e294d4e1b7ad9f2e4d6bb31d118c7ead81401c35aecba7a4b27a",
-      "size": 25520
-    },
-    "ghostanimationlearning_Data/Managed/UnityEngine.ClusterInputModule.dll": {
-      "sha256": "3a45f480d1adf2c3500082e0c657e2d05e60c9bc5da1ce4af1528e393ba21dfb",
-      "size": 29104
+    "ghostanimationlearning_Data/Managed/Unity.Multiplayer.Tools.Initialization.dll": {
+      "sha256": "be044ee088de040baee62b442b3b0eeb8c505ac3b85173dd47c1c424539fc836",
+      "size": 4608
     },
     "ghostanimationlearning_Data/Managed/Unity.Multiplayer.Tools.MetricEvents.dll": {
       "sha256": "cc94d68e36f132d0bf34bdb77b15d0281573e5b923057085eeba1c905ad9705d",
       "size": 4608
     },
-    "ghostanimationlearning_Data/Managed/UnityEngine.ARModule.dll": {
-      "sha256": "c4d33b77a0e17a9dc83e202ff4acbae27b8497054c554dbe824ab63294b814e1",
-      "size": 27048
+    "ghostanimationlearning_Data/Managed/Unity.Multiplayer.Tools.MetricTestData.dll": {
+      "sha256": "270e3922c8384c687ad2a76a4e6a835712e47d440d11f2cb571639f5a1a12a83",
+      "size": 9728
     },
-    "ghostanimationlearning_Data/Managed/UnityEngine.TilemapModule.dll": {
-      "sha256": "2b867efd4bab02d66e92f354de1cb7f678908515ff153048265db00b550088d4",
-      "size": 75184
+    "ghostanimationlearning_Data/Managed/Unity.Multiplayer.Tools.MetricTypes.dll": {
+      "sha256": "797274dee50e0911330e2bc6229d66a305b29b0982f320aa7aaa1ae58e6b85cc",
+      "size": 17408
     },
-    "ghostanimationlearning_Data/Managed/UnityEngine.MarshallingModule.dll": {
-      "sha256": "cd93058471d677cac1b0f000027e1e11feb7957e375901f984f1d73338b8047d",
-      "size": 97200
+    "ghostanimationlearning_Data/Managed/Unity.Multiplayer.Tools.NetStats.dll": {
+      "sha256": "b208b613d79e26f5a39c59edd773707838a354a7986510aadf4789ea7bfd75ff",
+      "size": 46592
     },
-    "ghostanimationlearning_Data/Managed/UnityEngine.UIElementsModule.dll": {
-      "sha256": "9010efd0e26f2f6ee1db357afa2044044c5ebee80c8cc534cd0afca66dc4ffc7",
-      "size": 2349488
+    "ghostanimationlearning_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Component.dll": {
+      "sha256": "192f7aa81633d06a6b40170759d618ed9143d8c160f6d4b14324147f6700ca7e",
+      "size": 9216
     },
-    "ghostanimationlearning_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll": {
-      "sha256": "8779733a6a74085786356c3d7ac481c90b1107cf04716e6fd68cc07d7e440015",
-      "size": 77744
+    "ghostanimationlearning_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Configuration.dll": {
+      "sha256": "1c7734177b3dee52798ef556c709de737ca9c0e1ed5842191b7b871a2d604d36",
+      "size": 20480
     },
-    "ghostanimationlearning_Data/Managed/UnityEngine.ContentLoadModule.dll": {
-      "sha256": "38e3b8ffd4716bc6ef28e77d7966ea50467353679e86628445a709bdefe57ab3",
-      "size": 46504
+    "ghostanimationlearning_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Implementation.dll": {
+      "sha256": "021a4f65cee186f8290a38ed1db62bb6b11c803e761985a62a50521423fec3e0",
+      "size": 51712
     },
-    "ghostanimationlearning_Data/Managed/Unity.InputSystem.dll": {
-      "sha256": "c89b072cb9185636e0f4ed1c5612c1ade14cb202c385066b7a5be5f930c65af9",
-      "size": 1094656
+    "ghostanimationlearning_Data/Managed/Unity.Multiplayer.Tools.NetStatsReporting.dll": {
+      "sha256": "42b7727ef3eb98063baa0a47e3b0de940972b0089c62a27285cebc6de8ba1513",
+      "size": 3584
     },
-    "ghostanimationlearning_Data/Managed/System.dll": {
-      "sha256": "d26cada0fc3dcae061f0fa421df15a082cb35ccf81ccaeebc8b0e2d2e6877099",
-      "size": 2641920
+    "ghostanimationlearning_Data/Managed/Unity.Multiplayer.Tools.NetVis.Configuration.dll": {
+      "sha256": "d6486407479810465e352f7e6ce40ac98aaa57663322f092f20370d8cba350fe",
+      "size": 17920
+    },
+    "ghostanimationlearning_Data/Managed/Unity.Multiplayer.Tools.NetworkProfiler.Runtime.dll": {
+      "sha256": "0a4a5eaa11c1db70f401fdadd55e1a0dff85cfa89da46018905143242ddacff5",
+      "size": 10240
+    },
+    "ghostanimationlearning_Data/Managed/Unity.Multiplayer.Tools.NetworkSimulator.Runtime.dll": {
+      "sha256": "94208935c13b086875271ff9e72b911e27d8912bccd8581e0ebcc530f3f47994",
+      "size": 33792
+    },
+    "ghostanimationlearning_Data/Managed/Unity.Multiplayer.Tools.NetworkSolutionInterface.dll": {
+      "sha256": "7583a1a940e1c442da51b8aae0daa54e3e101cace861f6f0e3cfbce55fb70ddd",
+      "size": 4096
+    },
+    "ghostanimationlearning_Data/Managed/Unity.Netcode.Runtime.dll": {
+      "sha256": "ebf10696d6fb94d9cd2e54c4c59c2eed261793fc3e70e10757673bf674e49df4",
+      "size": 614400
+    },
+    "ghostanimationlearning_Data/Managed/Unity.Networking.Transport.dll": {
+      "sha256": "df5e98e2427cb574dd627be5fe153bfe6414ddc15578d7d575e62b3ccc8a347f",
+      "size": 216064
+    },
+    "ghostanimationlearning_Data/Managed/Unity.PathTracing.Runtime.dll": {
+      "sha256": "aaa1719a78da8e96b1ab6a9b8422a340c42995e3394b919f30ab8ec1c1833d87",
+      "size": 142848
+    },
+    "ghostanimationlearning_Data/Managed/Unity.ProBuilder.Csg.dll": {
+      "sha256": "d1dec64adf1d111cb07391b968763a0ecc7de82e7bcea76d0acceee9ad203be4",
+      "size": 16896
+    },
+    "ghostanimationlearning_Data/Managed/Unity.ProBuilder.KdTree.dll": {
+      "sha256": "1545f1e5f54351bc263a3090bb2ef7a2ab23370e9bc24b3f3d5a19338bafb5e2",
+      "size": 18944
+    },
+    "ghostanimationlearning_Data/Managed/Unity.ProBuilder.Poly2Tri.dll": {
+      "sha256": "7d4a264aea2cada8f12d7a0fe95f65765fd5d476ac62e3c4766d45b42c7ee24a",
+      "size": 34304
     },
     "ghostanimationlearning_Data/Managed/Unity.ProBuilder.Stl.dll": {
       "sha256": "be99b88f4e4cd03f5fd3e6969ffb0665646fd11f15574440850ce8d063aecc1e",
@@ -836,109 +341,605 @@
       "sha256": "5aeb4426d6bbbe6bdffc7e1611fdbeb881c0b9ccabce324e5809dd7ef4284ce8",
       "size": 321536
     },
+    "ghostanimationlearning_Data/Managed/Unity.Profiling.Core.dll": {
+      "sha256": "f6f5a09137f53bcc10ca4b0dea0393c90d88172584306e43ca72bb23477a4b87",
+      "size": 8192
+    },
+    "ghostanimationlearning_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll": {
+      "sha256": "2c39a0babda089593673191c3b6267d065ed380be43623da4a3296d630f6b618",
+      "size": 7680
+    },
+    "ghostanimationlearning_Data/Managed/Unity.RenderPipelines.Core.Runtime.Shared.dll": {
+      "sha256": "a9425764057ba462705d12bf655e1ba7d116b92eaafaeedf16d62b42117749be",
+      "size": 11264
+    },
+    "ghostanimationlearning_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll": {
+      "sha256": "d759fd76d232fa6f0ad51cc86205e0a580191d9be7826c968e241b1979e4ef62",
+      "size": 1092096
+    },
+    "ghostanimationlearning_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll": {
+      "sha256": "741e252d8cd5ab1fc7747c254886af36e90b2ce1bc1592c1220eeddecd1c1952",
+      "size": 3584
+    },
+    "ghostanimationlearning_Data/Managed/Unity.RenderPipelines.GPUDriven.Runtime.dll": {
+      "sha256": "a2110fd5424a4d7f54b836fbfb5a5c14f38a29de24c677446d65daebd9f1d5bf",
+      "size": 263168
+    },
+    "ghostanimationlearning_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll": {
+      "sha256": "bf5ae404eff54894e552e3df8273ac2b9328d76f5b64600238d650cd00d87c0b",
+      "size": 3584
+    },
+    "ghostanimationlearning_Data/Managed/Unity.RenderPipelines.Universal.2D.Runtime.dll": {
+      "sha256": "6ba43577052982ae1fc43f26210d64aec7b4719e0f58d411d85aca54d1796ed1",
+      "size": 198656
+    },
+    "ghostanimationlearning_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll": {
+      "sha256": "cb6fdd1eab602752bca949b1fdd4eba286ee4cf232d4afa39a6961346db8dd66",
+      "size": 4096
+    },
+    "ghostanimationlearning_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll": {
+      "sha256": "30597b51713c97e92f3fc02dcc7d0806bbbab52b15f098e510cf12fab2a94649",
+      "size": 722432
+    },
+    "ghostanimationlearning_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll": {
+      "sha256": "f0738cf03e64ccfb02dfa34a79c856f9efb329b1434573db6f01d343dcc579a6",
+      "size": 3584
+    },
+    "ghostanimationlearning_Data/Managed/Unity.Scripting.dll": {
+      "sha256": "881c00ee513ea7a39fab1d9da2d1e56af4b157154beb0dd9c4073f3aebe32bd1",
+      "size": 68520
+    },
+    "ghostanimationlearning_Data/Managed/Unity.Services.Authentication.PlayerAccounts.dll": {
+      "sha256": "abe8075377a53296efac031e561c4626660ad84cf8d57bc76a582b10e39cdb3a",
+      "size": 36864
+    },
+    "ghostanimationlearning_Data/Managed/Unity.Services.Authentication.dll": {
+      "sha256": "9e464d53dbf4781e57a49743d8c2715ae0b379466e51971a89987f29fd7cf98b",
+      "size": 139776
+    },
+    "ghostanimationlearning_Data/Managed/Unity.Services.Core.Analytics.dll": {
+      "sha256": "0601efcb5db37c3629c9f9fe2781a58708a9fe1db1ade75135556b8415cd0786",
+      "size": 4096
+    },
+    "ghostanimationlearning_Data/Managed/Unity.Services.Core.Components.dll": {
+      "sha256": "2775be1311e7d030f35124349ecd753317867892dcd0229c6f69435273a072d4",
+      "size": 9216
+    },
+    "ghostanimationlearning_Data/Managed/Unity.Services.Core.Configuration.dll": {
+      "sha256": "421be08fdcc8a227a71e8e83bb72b3868b1a70d2beaf65b5e5aa11bd3fa7ba7e",
+      "size": 11776
+    },
+    "ghostanimationlearning_Data/Managed/Unity.Services.Core.Device.dll": {
+      "sha256": "87cbd77cf1e19b4eb403999c6f6771031cf7441351607e09fabe595ffa22eb65",
+      "size": 6144
+    },
+    "ghostanimationlearning_Data/Managed/Unity.Services.Core.Environments.Internal.dll": {
+      "sha256": "95e7d5408e4ef1d3fafd67bd43f264e690652eeade85e19e4d4dd3f0a5463c8d",
+      "size": 3584
+    },
+    "ghostanimationlearning_Data/Managed/Unity.Services.Core.Environments.dll": {
+      "sha256": "26ce7ab899fcc563d9d60ed043a84c7680a4b8a668c09776c936ffd6f99db755",
+      "size": 4096
+    },
+    "ghostanimationlearning_Data/Managed/Unity.Services.Core.Internal.dll": {
+      "sha256": "b27cf3c45f0f37e0a5ad4cefccc98eebfe1845305d9ca26c167ab2fd087627af",
+      "size": 60416
+    },
+    "ghostanimationlearning_Data/Managed/Unity.Services.Core.Networking.dll": {
+      "sha256": "66af603491d0f6966f7d68071f6ca9dcb2f81b57c71d9d5328b53e4640b45415",
+      "size": 6656
+    },
+    "ghostanimationlearning_Data/Managed/Unity.Services.Core.Registration.dll": {
+      "sha256": "5400b6b7337f798ba28a066aa1e6f4b9b205009a908b814139c48b9acd9dea9d",
+      "size": 17920
+    },
+    "ghostanimationlearning_Data/Managed/Unity.Services.Core.Scheduler.dll": {
+      "sha256": "a0d8e2334a73d3cf98a3f64f0ad16043aee5d00dd2b0649436e58858e075305c",
+      "size": 10752
+    },
     "ghostanimationlearning_Data/Managed/Unity.Services.Core.Telemetry.dll": {
       "sha256": "8e763e84006e34d617a34835e36cdb7b152d9e458e3d21746408fb0c5feb46e1",
       "size": 6144
     },
-    "ghostanimationlearning_Data/Managed/Unity.Multiplayer.Tools.MetricTestData.dll": {
-      "sha256": "270e3922c8384c687ad2a76a4e6a835712e47d440d11f2cb571639f5a1a12a83",
-      "size": 9728
+    "ghostanimationlearning_Data/Managed/Unity.Services.Core.Threading.dll": {
+      "sha256": "056f2d07395e41b4bcbaca24c4c09b7f7abb6e06feaa4c194f4fa14d4f78e6bb",
+      "size": 5632
+    },
+    "ghostanimationlearning_Data/Managed/Unity.Services.Core.dll": {
+      "sha256": "7f1e86d1d98cacfe6685bfafbc33d182a93ddeeb42bbaeffe71dfb3d9b57926a",
+      "size": 15360
+    },
+    "ghostanimationlearning_Data/Managed/Unity.Services.Multiplayer.dll": {
+      "sha256": "565997ebbd3ef9b153fcc84aa4f4bb705f6478bec97f0edbbd8f66638e1e2634",
+      "size": 660992
+    },
+    "ghostanimationlearning_Data/Managed/Unity.Services.QoS.dll": {
+      "sha256": "361ea22da671b672bd68ca65ee664571aa5dcb845f2672962294843024249629",
+      "size": 121856
+    },
+    "ghostanimationlearning_Data/Managed/Unity.Services.Wire.Internal.dll": {
+      "sha256": "7f220d092c8e09664a17238acc5f38fd53c2ace74cbe931f92cdaf419ae2f38f",
+      "size": 54272
+    },
+    "ghostanimationlearning_Data/Managed/Unity.SurfaceCache.Runtime.dll": {
+      "sha256": "0e3dace53681f0b98dc546410e18958c006e979db18cca5c944dbf06c7f5bf49",
+      "size": 3584
+    },
+    "ghostanimationlearning_Data/Managed/Unity.TextMeshPro.dll": {
+      "sha256": "705cd0bb643195f8150bda17a10df0df38084808694385c1458944cc35c4e87e",
+      "size": 439296
+    },
+    "ghostanimationlearning_Data/Managed/Unity.Timeline.dll": {
+      "sha256": "688105b4e70c4334f1b68a87069a13f7c1c40f76fbf61769fb266d19597d001a",
+      "size": 121856
+    },
+    "ghostanimationlearning_Data/Managed/Unity.UnifiedRayTracing.Runtime.dll": {
+      "sha256": "da363c7367650eeb1de81cf7fd7d64a45b6b99a94a576e921e2e21823a34ab25",
+      "size": 91648
+    },
+    "ghostanimationlearning_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll": {
+      "sha256": "ed7ce205f66eafe39bbb5d084d42e7fe11cb4b386ff208e5d5110891be0b7b37",
+      "size": 86016
+    },
+    "ghostanimationlearning_Data/Managed/Unity.VisualScripting.Core.dll": {
+      "sha256": "4a64be6b71e9a82ecf77ec7859f1cd6dc1453d22dcc7e212c0f539aefa6ee08e",
+      "size": 550400
+    },
+    "ghostanimationlearning_Data/Managed/Unity.VisualScripting.DocCodeExamples.dll": {
+      "sha256": "b286a5106669cac6b290565a902b28b2fddbbc78439ca2b5c64fb7c8de14428e",
+      "size": 6144
+    },
+    "ghostanimationlearning_Data/Managed/Unity.VisualScripting.Flow.dll": {
+      "sha256": "a519c25307fa35bc3c0bb3eca4d9bdbae3daddc5a49dd441609ab39bee374f08",
+      "size": 335872
+    },
+    "ghostanimationlearning_Data/Managed/Unity.VisualScripting.State.dll": {
+      "sha256": "e90dc15561899aa102fc2a415e2c3b6ea5cc0c3f0d782230e67a49fd9741d41f",
+      "size": 27136
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.AIModule.dll": {
+      "sha256": "a0b82fdaeab698d6cf6d1cf76eea8ad5f172a8cbe7d6b0664c3b1a0bdf066066",
+      "size": 86440
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.AMDModule.dll": {
+      "sha256": "526735259999a0aeb6a46a1cb116cf78baafadcf3408786e68a687d1e63fedc3",
+      "size": 21936
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.ARModule.dll": {
+      "sha256": "c4d33b77a0e17a9dc83e202ff4acbae27b8497054c554dbe824ab63294b814e1",
+      "size": 27048
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.AccessibilityModule.dll": {
+      "sha256": "6090ab2ad0f4f44c72b429d568a4e86d23a8fb0101921e30efa0c461253da2ff",
+      "size": 49072
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.AdaptivePerformanceModule.dll": {
+      "sha256": "d282a48a5d88db7ac4ba46512a4d8489b7780c8bb9791d3384c3eb7a459bd1a3",
+      "size": 118184
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.AndroidJNIModule.dll": {
+      "sha256": "4fb12b1e655c55b6398a0a5e25c791ea73a6fd809820f34a81570eef70169e14",
+      "size": 120752
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.AnimationModule.dll": {
+      "sha256": "85169723ffd48c876e331e2f953a60659662ba01dd559dc837599d6566835474",
+      "size": 218536
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.AssetBundleModule.dll": {
+      "sha256": "58e4b540d553319b364e38e72804938089f7e6df27f87a41d62dc41aeb98b118",
+      "size": 42408
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.AudioModule.dll": {
+      "sha256": "ef5a2bac2ccfea9617137efd0708165dcbcb2b3a4d08b21c67fa2dfcb78af591",
+      "size": 142768
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.ClothModule.dll": {
+      "sha256": "abb72fd9af670fea254697e6643d7ee1949a18ffa9a901cbe6d00bbffee28602",
+      "size": 37296
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.ClusterInputModule.dll": {
+      "sha256": "3a45f480d1adf2c3500082e0c657e2d05e60c9bc5da1ce4af1528e393ba21dfb",
+      "size": 29104
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.ClusterRendererModule.dll": {
+      "sha256": "022bd10d5e25df61a0d3db136a4b3dfa29351fe7098439e0c37a9086e8cca67b",
+      "size": 28080
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.ContentLoadModule.dll": {
+      "sha256": "38e3b8ffd4716bc6ef28e77d7966ea50467353679e86628445a709bdefe57ab3",
+      "size": 46504
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.CoreModule.dll": {
+      "sha256": "80187c2f82c8bb82f8425f87df630152121cd0076c75d84996004ca162d8d33c",
+      "size": 1974192
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.CrashReportingModule.dll": {
+      "sha256": "02f586c32624e3418a1ca936a257a895198aa06de1422b44c2835ba52993245b",
+      "size": 28080
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.DSPGraphModule.dll": {
+      "sha256": "8056b02715e9d2a736631a4b5c5122723913e2850366306efade6dfd62835146",
+      "size": 32688
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.DirectorModule.dll": {
+      "sha256": "296857a73dd84d4500ed6355d7d094fabefb0db2898915e97abeac466fbd3cd5",
+      "size": 41896
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.GIModule.dll": {
+      "sha256": "3181be1039b60876920acb697f8c3d73d5f73ba5bf79b46dcf66ef912490a2d3",
+      "size": 25520
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.GameCenterModule.dll": {
+      "sha256": "beda7af14db2518c512bddb7241b079579e62fbc06b5cbc6b7ec3cf1609aa7d5",
+      "size": 45480
     },
     "ghostanimationlearning_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll": {
       "sha256": "f3ca35c069c5c43b63e6a668035518a39cfc7b919f706132d68f7a3b707509ad",
       "size": 14248
     },
-    "ghostanimationlearning_Data/Managed/System.Xml.Linq.dll": {
-      "sha256": "fd300e794b9ccd85d95bbab54e282da1333faa20a9209457944e831c27452b00",
-      "size": 136704
+    "ghostanimationlearning_Data/Managed/UnityEngine.GridModule.dll": {
+      "sha256": "ca70fce3da5d5b320013bf0315ab584a1fbd188f070e96d32eec940fbe5b6a3d",
+      "size": 32176
     },
-    "ghostanimationlearning_Data/Plugins/x86_64/libonigwrap.dll": {
-      "sha256": "57ec06e02dfccd4e1ad9d4dab949b4b28389cb01fbc1c375909074509b185c6b",
-      "size": 551344
+    "ghostanimationlearning_Data/Managed/UnityEngine.HierarchyCoreModule.dll": {
+      "sha256": "96b57194abc5e03416b6bd6666e6f8d3dfa426841fcba3e29ccfa094312ad6c3",
+      "size": 105392
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.HierarchyModule.dll": {
+      "sha256": "192e0c48272cd90ff610723794ad7893142fe6e78975e87059c2e96864156b19",
+      "size": 100264
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.HotReloadModule.dll": {
+      "sha256": "8e95a32a0db34444ae07d96ce45f03b7cc3b3b6207399a3ddbd8a170abbecf7f",
+      "size": 25520
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.IMGUIModule.dll": {
+      "sha256": "b3168e9a044d3c4414c593bc1cd38c508a2b201a6ec5b87aa9e112fea92d2c87",
+      "size": 188840
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.IdentifiersModule.dll": {
+      "sha256": "d963560a918b55c2b8a6b007bf551907d6220f98cf6792dd777ee80bf6ed65ad",
+      "size": 16816
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.ImageConversionModule.dll": {
+      "sha256": "f6e2c604acdd5de19abeb1230f0359e73a2c1972a2c95e30eefb9d9fab9d7bb5",
+      "size": 33712
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.InputForUIModule.dll": {
+      "sha256": "1a713129d365bf9a8229bff4ec5b57b0ddd75652d42eeff2cf1016d244b2b934",
+      "size": 55728
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.InputLegacyModule.dll": {
+      "sha256": "799f412303729d09479bf85d025e06296563ca968d40b4f365b138949d1fb83e",
+      "size": 41896
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.InputModule.dll": {
+      "sha256": "5993245d344a288e9a61ddde09b329c60a2a47cbebc05cf39aa84ba99d60dd29",
+      "size": 30632
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.InsightsModule.dll": {
+      "sha256": "67847130b47ee428578fa0c8af38c416ba9e3f32a66b7a0561502679f946dc80",
+      "size": 15784
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.JSONSerializeModule.dll": {
+      "sha256": "d987adaf3f537d168bed9ea53b726e9e10fb673e003c88f34665e6d14aac0d5c",
+      "size": 28080
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.LocalizationModule.dll": {
+      "sha256": "263266661cc77f0106a688694e2bdc83e3632797a2604a1b3edae660db266298",
+      "size": 28080
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.MarshallingModule.dll": {
+      "sha256": "cd93058471d677cac1b0f000027e1e11feb7957e375901f984f1d73338b8047d",
+      "size": 97200
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.MathematicsModule.dll": {
+      "sha256": "b4b8f19efd4dadbd4ece925fcef614348e2416bf4f1a1e3c717400cef6933819",
+      "size": 740776
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.MultiplayerModule.dll": {
+      "sha256": "03aed58fdeb554267c7b34c32ce1b59af3db0d74c6ef30af40aac0ac4cfd1766",
+      "size": 17840
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.NVIDIAModule.dll": {
+      "sha256": "06b41139018439f28c11ce13527d717aa41a3279b69b6c31b146650f6e3d9626",
+      "size": 40360
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.ParticleSystemModule.dll": {
+      "sha256": "5c92c2cd0abae5a837269308602971f12f7843a5f15c8da8bb96f4853a2fbb80",
+      "size": 168880
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.PerformanceReportingModule.dll": {
+      "sha256": "6dd063a783f762f147609fa97f4c21fe51c79106a8c449d85a6503e6983375cc",
+      "size": 26544
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.Physics2DModule.dll": {
+      "sha256": "47b338623d239a22d8495a15360262d852f6a4a32bfe8b881d63f781996624f2",
+      "size": 222128
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.PhysicsBackendPhysXModule.dll": {
+      "sha256": "5733f271a93d3c3ec165295f7d2eda2012b46364c550e1fa241774b4ecdf9f3b",
+      "size": 14248
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.PhysicsCore2DModule.dll": {
+      "sha256": "3b6fef6d99c1e105abfd01a3b69ca179ee7ace9a0b94628c19fdaea14ff03c4b",
+      "size": 450472
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.PhysicsModule.dll": {
+      "sha256": "247687fc451fdb2bbdbc095bcd4f461da84708f4b5af85534622c858c9fa7e10",
+      "size": 180144
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.PropertiesModule.dll": {
+      "sha256": "4e34125a1eb2f5c76f9e3dbd11fc8b521f69945f305f70ea7a7a08f1a65b7761",
+      "size": 124848
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.RenderAs2DModule.dll": {
+      "sha256": "0ca1e122a87c765e60ad15f5a6fd4872996732933a39b5d267f8617390078569",
+      "size": 27056
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll": {
+      "sha256": "39f92c1b37821af02771f49e4167f02de685087831a7afa578b1f8ff454e651f",
+      "size": 25512
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.ScreenCaptureModule.dll": {
+      "sha256": "ac5895945b896f30d862507e70a4149a3120a85ead8a34825646e86807b8c9c0",
+      "size": 27560
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.ScriptingModule.dll": {
+      "sha256": "f6757a8980bacb185ac7b689a5cf552be780adb4adb8c91fe678eee056460df5",
+      "size": 27560
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll": {
+      "sha256": "efa96d45f33b0c3b744a299315d29ca1144b9a07e112b27de8645a8347934dca",
+      "size": 25520
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.SharedInternalsModule.dll": {
+      "sha256": "c0b02a3d2820f9120c4a8521b9019992c7b56d93064b2261754efa9110bbbc56",
+      "size": 36784
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.SpriteMaskModule.dll": {
+      "sha256": "6ae4885d058c9e36266dac3ddd680126eea04fff1ac88bc5bae65429df1a0c5a",
+      "size": 29608
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.SpriteShapeModule.dll": {
+      "sha256": "6e7b67fa71f1896a35603b1358273e318ab23d687d28969071cf43bb71f3f4b1",
+      "size": 33712
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.StreamingModule.dll": {
+      "sha256": "179e202b51ca7069bef667aa9c31fa7cefd1328d1cbf122eb4401ede785262bd",
+      "size": 27048
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.SubstanceModule.dll": {
+      "sha256": "d1b9e00950a98f74cb4476c28d1c48c359f6681fbebc507816fae73291213dfc",
+      "size": 30640
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.SubsystemsModule.dll": {
+      "sha256": "590ff643430b94112afa268fb4aa56981553f44b9d5f2816e40ca116e6992088",
+      "size": 42416
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.TLSModule.dll": {
+      "sha256": "8b0dbcc72e110fea67d168182c3ef750701354be76fdc005dd20cc4ce2210b0a",
+      "size": 33200
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.TerrainModule.dll": {
+      "sha256": "3cb12f958b2a6a9d03974a0b812b696de2dbe24ee4a6072fa85724662471f54d",
+      "size": 131504
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.TerrainPhysicsModule.dll": {
+      "sha256": "024bf25f72f458df6347d0cc93dcef2ac7691bb7dc1881db8f9a3f50b1d8c7ba",
+      "size": 27056
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll": {
+      "sha256": "8779733a6a74085786356c3d7ac481c90b1107cf04716e6fd68cc07d7e440015",
+      "size": 77744
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll": {
+      "sha256": "b93e73b8d164645c581f2e21990f5fb7034bef0521762064f9ae0934306d1730",
+      "size": 332200
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.TextRenderingModule.dll": {
+      "sha256": "edb493c7c5fe0945b562275616714d63ee1ce3c48f83b2d5b8b173510750ce0b",
+      "size": 39336
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.TilemapModule.dll": {
+      "sha256": "2b867efd4bab02d66e92f354de1cb7f678908515ff153048265db00b550088d4",
+      "size": 75184
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.U2DRuntimeModule.dll": {
+      "sha256": "c4808d15635474595ca656cfc0af6ae75ca4fcd963acdf291721a78cbaa86add",
+      "size": 26544
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.UI.dll": {
+      "sha256": "a0dfa803973a84862821466edc78ef3505e4bcfc121822c1348de68d5402e44c",
+      "size": 262144
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.UIElementsModule.dll": {
+      "sha256": "9010efd0e26f2f6ee1db357afa2044044c5ebee80c8cc534cd0afca66dc4ffc7",
+      "size": 2349488
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.UIModule.dll": {
+      "sha256": "5e1626fb07c6b00f93230672f7a987e09234c98afa6b93a3e3213e5b846a2b00",
+      "size": 54192
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.UmbraModule.dll": {
+      "sha256": "8c7f697bf2a2e294d4e1b7ad9f2e4d6bb31d118c7ead81401c35aecba7a4b27a",
+      "size": 25520
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll": {
+      "sha256": "58c24d00c4d156bf96b17459e4bff80da41351159943c3d040036cccb49512d6",
+      "size": 35752
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.UnityAnalyticsModule.dll": {
+      "sha256": "c551a14a78cdd219f2cb933440b68287e85d7e572626f026ade8d07802cd8670",
+      "size": 60328
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.UnityConnectModule.dll": {
+      "sha256": "29986257727c6b728a9d598b0986662db550079a93b507fde2ee9e8d314d3dd1",
+      "size": 29096
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.UnityConsentModule.dll": {
+      "sha256": "d0d128466654cde0544482e94b68c44bf5031d875923620e03097c69a621e081",
+      "size": 16296
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.UnityCurlModule.dll": {
+      "sha256": "bb9b537257557920e008de5f5620f73f07d11165829b04b8c3724e0ecb662f64",
+      "size": 27560
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll": {
+      "sha256": "e490241284fb20412134d2aa38601106ab9ec03a37af77963752a341bf6a94d0",
+      "size": 30120
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll": {
+      "sha256": "cb6aaefdfc6e2e73c5186e9779c12900c14d6549d82acfbabe9a46cd331584ec",
+      "size": 29608
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.UnityWebRequestModule.dll": {
+      "sha256": "2b2d06233f651d13a49c34ed3b030f6933ffcc000b4bb391739160c34f565291",
+      "size": 79272
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll": {
+      "sha256": "8fbda7c620c75d24f0e666997d33a5efb10e758ae71bfccf05d6bd4c2080ba37",
+      "size": 28592
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll": {
+      "sha256": "eb80258d8a9e06331400aea57548ad9535aaa46252887e2a8392c84f8dfe9277",
+      "size": 36784
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.VFXModule.dll": {
+      "sha256": "54f1aeecc837b18f62a61e07c6e5a178f8f3544c034865791b18f42cc475911d",
+      "size": 81832
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.VectorGraphicsModule.dll": {
+      "sha256": "d2e3b21a5bb9832640b096793e174d91a971f49675c06eb2310b5b39543fe805",
+      "size": 227760
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.VehiclesModule.dll": {
+      "sha256": "84f29a9779ed662aaf6a24ddd58b51946e7422785cd960b14d278785b173e585",
+      "size": 32688
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.VideoModule.dll": {
+      "sha256": "be1c3811c83d86dc6854a4981d327712d3bb2442223cbaf345ab4d011e427ec5",
+      "size": 48552
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.VirtualTexturingModule.dll": {
+      "sha256": "d3d7606838c5ec0ee800545b312a24de37d3849a01b4e063b935b0717c7c97b1",
+      "size": 43440
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.WindModule.dll": {
+      "sha256": "b6a24338eafbdf2663096484748f346679aea0a3fdd0de567b45ea0ca350e36d",
+      "size": 28072
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.XRModule.dll": {
+      "sha256": "267b21a1678ab39b89a1f056b9e97651a48c7c5d9ec22713e828227e7ffab225",
+      "size": 95656
+    },
+    "ghostanimationlearning_Data/Managed/UnityEngine.dll": {
+      "sha256": "3f5474a8e192ba126fd41b582639e18c53f1cd159c7dae9852b0fad815235878",
+      "size": 210352
+    },
+    "ghostanimationlearning_Data/Managed/mscorlib.dll": {
+      "sha256": "f7698bd46af58d3ee9dac59a286cfedfd28e51f71c0fe3940671a3ccc7af5711",
+      "size": 4632064
+    },
+    "ghostanimationlearning_Data/Managed/netstandard.dll": {
+      "sha256": "6ae62e082dc494a2433984177f60ca4db5fae69b1f360a8b33754172b310b8c5",
+      "size": 90112
+    },
+    "ghostanimationlearning_Data/Managed/unity-websocket-sharp.dll": {
+      "sha256": "c6fcecdb2d3b4cbc2dd6b0ee411f797bd0933b3f4c27a0ae6260c0b6db97c285",
+      "size": 214528
+    },
+    "ghostanimationlearning_Data/Managed/websocket-sharp.dll": {
+      "sha256": "0113ac17878d4fe992fa487c4fd9a8fa3850d4fa4b64cab45ecf782a3d6fef7a",
+      "size": 248320
     },
     "ghostanimationlearning_Data/Plugins/x86_64/lib_burst_generated.dll": {
       "sha256": "6dbb930aca4fa2fa66db3399535843becbe72134b720cc51002ba37b8568e30a",
       "size": 1039360
     },
+    "ghostanimationlearning_Data/Plugins/x86_64/libonigwrap.dll": {
+      "sha256": "57ec06e02dfccd4e1ad9d4dab949b4b28389cb01fbc1c375909074509b185c6b",
+      "size": 551344
+    },
     "ghostanimationlearning_Data/StreamingAssets/UnityServicesProjectConfiguration.json": {
       "sha256": "390ae7763f9625253dd86aafb45eb9fc2c0c5663dc676f10d51ff36d8c7caf8f",
       "size": 2425
-    },
-    "ghostanimationlearning_Data/Resources/unity_builtin_extra": {
-      "sha256": "bb4064b5163a9b007e8df3ac6fe9e8a0719452a5721928fb4c9adf6cca78881e",
-      "size": 403656
     },
     "ghostanimationlearning_Data/Resources/unity default resources": {
       "sha256": "1fbaff511bdec6cf276529de02215fee9fdcf7298ea9d7c49dc6b984ee73a7f5",
       "size": 5881648
     },
+    "ghostanimationlearning_Data/Resources/unity_builtin_extra": {
+      "sha256": "bb4064b5163a9b007e8df3ac6fe9e8a0719452a5721928fb4c9adf6cca78881e",
+      "size": 403656
+    },
     "ghostanimationlearning_BurstDebugInformation_DoNotShip/Data/Plugins/x86_64/lib_burst_generated.txt": {
       "sha256": "f0da478ee0cde9c82d2e4f8cc54cf43e15faaa42d08061257a5ae3963b959493",
       "size": 296673
-    },
-    "MonoBleedingEdge/etc/mono/config": {
-      "sha256": "5776169973a26a387b8b3e5c0f2301a7ab9a6dd7c7d3efa22a96abc47fbf8662",
-      "size": 3815
     },
     "MonoBleedingEdge/etc/mono/browscap.ini": {
       "sha256": "4ddd50f31fb968f30bedefc253a46dc3f2890192d05cdaa9e0a64a056eee807e",
       "size": 311984
     },
-    "MonoBleedingEdge/etc/mono/4.0/web.config": {
-      "sha256": "e38bb8cc68fe5b4edecdfd288d094b9e8ced7629039b2a347682aba0d8bd7492",
-      "size": 18802
+    "MonoBleedingEdge/etc/mono/config": {
+      "sha256": "5776169973a26a387b8b3e5c0f2301a7ab9a6dd7c7d3efa22a96abc47fbf8662",
+      "size": 3815
     },
     "MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx": {
       "sha256": "751861040b69ea63a3827507b7c8da9c7f549dc181c1c8af4b7ca78cc97d710a",
       "size": 60575
     },
+    "MonoBleedingEdge/etc/mono/4.0/machine.config": {
+      "sha256": "e60aec2c5115d65b3acb3c55ea21576dbd770f579166c017125571e46ae560ed",
+      "size": 33598
+    },
     "MonoBleedingEdge/etc/mono/4.0/settings.map": {
       "sha256": "ce1db1ad8a9512073164e3eccdc193f7eda036e1a9733caec4635de21b2865c8",
       "size": 2622
     },
-    "MonoBleedingEdge/etc/mono/4.0/machine.config": {
-      "sha256": "e60aec2c5115d65b3acb3c55ea21576dbd770f579166c017125571e46ae560ed",
-      "size": 33598
+    "MonoBleedingEdge/etc/mono/4.0/web.config": {
+      "sha256": "e38bb8cc68fe5b4edecdfd288d094b9e8ced7629039b2a347682aba0d8bd7492",
+      "size": 18802
     },
     "MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser": {
       "sha256": "608f6314528124253dcdba16db71967eca61d5d62d9bf3ae3e2f4926c5891bc3",
       "size": 1586
     },
-    "MonoBleedingEdge/etc/mono/4.5/web.config": {
-      "sha256": "c4cbddd4fd9347b58cc5a72b36dc4ba1ad2bb699e65869d05cd3fb9865f0d824",
-      "size": 18811
-    },
     "MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx": {
       "sha256": "751861040b69ea63a3827507b7c8da9c7f549dc181c1c8af4b7ca78cc97d710a",
       "size": 60575
-    },
-    "MonoBleedingEdge/etc/mono/4.5/settings.map": {
-      "sha256": "ce1db1ad8a9512073164e3eccdc193f7eda036e1a9733caec4635de21b2865c8",
-      "size": 2622
     },
     "MonoBleedingEdge/etc/mono/4.5/machine.config": {
       "sha256": "ee950004b576fb28dc85f4b0435ed04bf96612de2e8b53be84d07afe85a0de6c",
       "size": 34056
     },
+    "MonoBleedingEdge/etc/mono/4.5/settings.map": {
+      "sha256": "ce1db1ad8a9512073164e3eccdc193f7eda036e1a9733caec4635de21b2865c8",
+      "size": 2622
+    },
+    "MonoBleedingEdge/etc/mono/4.5/web.config": {
+      "sha256": "c4cbddd4fd9347b58cc5a72b36dc4ba1ad2bb699e65869d05cd3fb9865f0d824",
+      "size": 18811
+    },
     "MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser": {
       "sha256": "608f6314528124253dcdba16db71967eca61d5d62d9bf3ae3e2f4926c5891bc3",
       "size": 1586
-    },
-    "MonoBleedingEdge/etc/mono/2.0/web.config": {
-      "sha256": "cf2b54339e069b9e42f7d6795eecbf562c50c1011f4ca8f65f578fe52d97ff92",
-      "size": 11635
     },
     "MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx": {
       "sha256": "751861040b69ea63a3827507b7c8da9c7f549dc181c1c8af4b7ca78cc97d710a",
       "size": 60575
     },
+    "MonoBleedingEdge/etc/mono/2.0/machine.config": {
+      "sha256": "e91782a27fa39fc6c1d6ee8b08529f5d35052310d0006034b878eb04b8f2af30",
+      "size": 29066
+    },
     "MonoBleedingEdge/etc/mono/2.0/settings.map": {
       "sha256": "49c6160f9d54af4270a3b4e997fc4a8301f79b9e2070118fa46ddbcbbc44f9a2",
       "size": 2622
     },
-    "MonoBleedingEdge/etc/mono/2.0/machine.config": {
-      "sha256": "e91782a27fa39fc6c1d6ee8b08529f5d35052310d0006034b878eb04b8f2af30",
-      "size": 29066
+    "MonoBleedingEdge/etc/mono/2.0/web.config": {
+      "sha256": "cf2b54339e069b9e42f7d6795eecbf562c50c1011f4ca8f65f578fe52d97ff92",
+      "size": 11635
     },
     "MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser": {
       "sha256": "608f6314528124253dcdba16db71967eca61d5d62d9bf3ae3e2f4926c5891bc3",
@@ -948,13 +949,13 @@
       "sha256": "0c56e34c69124510fa8c19e7b4c2ca6c1c4ff460ae19f798dd0ca035809e396d",
       "size": 25817
     },
-    "MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll": {
-      "sha256": "4f76ed30d3fd917865ae98b96c663254c83bb1c3d6ad9cafe80fbb2325a61f2b",
-      "size": 7831464
-    },
     "MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll": {
       "sha256": "c307b35e1fc90a90c624bbea6f9ca4687cc92dde67a5bf58028f5b703828a541",
       "size": 611248
+    },
+    "MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll": {
+      "sha256": "4f76ed30d3fd917865ae98b96c663254c83bb1c3d6ad9cafe80fbb2325a61f2b",
+      "size": 7831464
     }
   }
 }
