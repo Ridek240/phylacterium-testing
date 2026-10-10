@@ -1,5 +1,5 @@
 {
-  "version": "417912f",
+  "version": "d35dba6",
   "files": {
     "UnityCrashHandler64.exe": {
       "sha256": "d035f5c7c1bea4a876534b85de5fbd39dc34e2b9b70aa360c4c52f2caf2efe6c",
@@ -38,7 +38,7 @@
       "size": 37
     },
     "ghostanimationlearning_Data/boot.config": {
-      "sha256": "53688d5c255ff8a057637baa184dd16dc0df09ea52dadbdc5f1672d694d6cc83",
+      "sha256": "51e823983a122e9104e8553e5f96cc5204632e77f41b4fc5f261a634dc0c3198",
       "size": 156
     },
     "ghostanimationlearning_Data/globalgamemanagers": {
@@ -70,8 +70,8 @@
       "size": 1018032
     },
     "ghostanimationlearning_Data/sharedassets0.assets": {
-      "sha256": "07e42d80882e05e2cc61830fb49ac72576a5926a6e7abd8f4966306f6cf8a214",
-      "size": 8794012
+      "sha256": "d8773972ae209d28eec75110d43cf44bfceefb05e07894263c7710fcf7a12e0c",
+      "size": 8794076
     },
     "ghostanimationlearning_Data/sharedassets0.assets.resS": {
       "sha256": "cd9b06990e9ba355f19f47a05ec2458918c3e188835954141c5d98d8bb233ef3",
@@ -86,7 +86,7 @@
       "size": 174784
     },
     "ghostanimationlearning_Data/Managed/Assembly-CSharp.dll": {
-      "sha256": "b46a2688e1c21739e474545905cfcacb18864293a20f998cfa3310d4d029e88f",
+      "sha256": "a60581d97c9db134484c109d1da7d7650c40be024ae1dca0509fabd79f8998d2",
       "size": 81408
     },
     "ghostanimationlearning_Data/Managed/Mono.Security.dll": {
