@@ -1,5 +1,5 @@
 {
-  "version": "d35dba6",
+  "version": "d1c2a0c",
   "files": {
     "UnityCrashHandler64.exe": {
       "sha256": "d035f5c7c1bea4a876534b85de5fbd39dc34e2b9b70aa360c4c52f2caf2efe6c",
@@ -38,7 +38,7 @@
       "size": 37
     },
     "ghostanimationlearning_Data/boot.config": {
-      "sha256": "51e823983a122e9104e8553e5f96cc5204632e77f41b4fc5f261a634dc0c3198",
+      "sha256": "5aa2c39bbfee6fd772124bc6a5e2d1028555c4af4127dbf6612ed30cb96521dd",
       "size": 156
     },
     "ghostanimationlearning_Data/globalgamemanagers": {
@@ -54,7 +54,7 @@
       "size": 6174944
     },
     "ghostanimationlearning_Data/level0": {
-      "sha256": "29f2440126eb19329de44b01805fb0336616030f5b69954f0b1468310eead7f7",
+      "sha256": "4fe84d078f43669a8c8479b8ad771657b0704b4545e1e37d3223bb7fceea17d1",
       "size": 1175772
     },
     "ghostanimationlearning_Data/level1": {
