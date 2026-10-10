@@ -41,7 +41,7 @@
       "size": 6539
     },
     "ghostanimationlearning_Data/boot.config": {
-      "sha256": "ab26a5183344ee988beacb4f0bf7a669107c4b6f56734ef146b5d3a4b230369f",
+      "sha256": "53688d5c255ff8a057637baa184dd16dc0df09ea52dadbdc5f1672d694d6cc83",
       "size": 156
     },
     "ghostanimationlearning_Data/sharedassets1.assets.resS": {
@@ -49,8 +49,8 @@
       "size": 174784
     },
     "ghostanimationlearning_Data/resources.assets": {
-      "sha256": "4fbae3c50957a0c4ef6f4117e6f9b6044f5629754d37344ec0bf12bb0935045e",
-      "size": 220324
+      "sha256": "abeb45f713e16a2d32c89ef41d7a429dce39e4fb9ac12c8a5b00dfe85108f9a0",
+      "size": 220212
     },
     "ghostanimationlearning_Data/resources.assets.resS": {
       "sha256": "4ee875180aaad0f4f5803c6c8dfa44808c48515b18d25cd4b676b0a9b1243f56",
@@ -65,16 +65,16 @@
       "size": 8794012
     },
     "ghostanimationlearning_Data/sharedassets1.assets": {
-      "sha256": "286e74ff145073e90d7474af09818897a2f6c3b670a5600a0300767fa0f0a495",
-      "size": 24864
+      "sha256": "630b753c1d8a9887f35e0310fa413a39d0dbc77b3131c091559199598da9c11d",
+      "size": 24752
     },
     "ghostanimationlearning_Data/level0": {
       "sha256": "29f2440126eb19329de44b01805fb0336616030f5b69954f0b1468310eead7f7",
       "size": 1175772
     },
     "ghostanimationlearning_Data/globalgamemanagers": {
-      "sha256": "74ffe289afbb5b875d8aea9698fce55f9163d87e695153328d1afda7e5809b36",
-      "size": 195812
+      "sha256": "de18dae207905f658e94ddb0b84bcb83c084609368ac6113a23e4c7b9bbdf60e",
+      "size": 195748
     },
     "ghostanimationlearning_Data/globalgamemanagers.assets.resS": {
       "sha256": "26b24bbd0bdb7017ecbac3b829c0ed7c4848bc343af5702e96ebdb75a7258b04",
