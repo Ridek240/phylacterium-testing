@@ -41,7 +41,7 @@
       "size": 6539
     },
     "ghostanimationlearning_Data/boot.config": {
-      "sha256": "9a3f4ab2e66eb96fc169cd6d43afadcdd3419a99bcc057cca3d10db8e50ba711",
+      "sha256": "ab26a5183344ee988beacb4f0bf7a669107c4b6f56734ef146b5d3a4b230369f",
       "size": 156
     },
     "ghostanimationlearning_Data/sharedassets1.assets.resS": {
@@ -453,7 +453,7 @@
       "size": 489984
     },
     "ghostanimationlearning_Data/Managed/Assembly-CSharp.dll": {
-      "sha256": "9b624c55a855a47891de84a796d640e502cabf7968cc8c7f443ccdbc6802fbef",
+      "sha256": "b46a2688e1c21739e474545905cfcacb18864293a20f998cfa3310d4d029e88f",
       "size": 81408
     },
     "ghostanimationlearning_Data/Managed/UnityEngine.RenderAs2DModule.dll": {
