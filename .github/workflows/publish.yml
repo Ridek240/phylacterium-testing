@@ -1,0 +1,29 @@
+name: Publish Unity Build
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "game/**"
+
+permissions:
+  contents: read
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Verify build
+        run: |
+          test -d game
+          test -n "$(find game -type f -print -quit)"
+
+      - name: Build detected
+        run: echo "New Unity build detected!"
