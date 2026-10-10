@@ -1,29 +1,50 @@
-name: Publish Unity Build
+name: Generate Game Manifest
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
+    paths:
+      - "game/**"
+      - ".github/workflows/publish.yml"
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
-  publish:
+  manifest:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          lfs: true
+      - uses: actions/checkout@v4
 
-      - name: Verify build
-        shell: bash
+      - name: Generate manifest
         run: |
-          test -d game
-          test -n "$(find game -type f -print -quit)"
+          python3 - <<'PY'
+          import os, json, hashlib
 
-      - name: Build detected
-        run: echo "New Unity build detected!"
+          files = {}
+
+          for root, _, names in os.walk("game"):
+              for name in names:
+                  path = os.path.join(root, name)
+                  relative = os.path.relpath(path, "game").replace("\\", "/")
+
+                  with open(path, "rb") as f:
+                      sha = hashlib.file_digest(f, "sha256").hexdigest()
+
+                  files[relative] = {
+                      "sha256": sha,
+                      "size": os.path.getsize(path)
+                  }
+
+          with open("manifest.json", "w") as f:
+              json.dump({"files": files}, f, indent=2)
+          PY
+
+      - name: Commit manifest
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add manifest.json
+          git diff --cached --quiet || (git commit -m "Update manifest" && git push)
