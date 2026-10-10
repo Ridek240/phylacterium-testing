@@ -4,8 +4,7 @@ on:
   push:
     branches:
       - main
-    paths:
-      - "game/**"
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -21,6 +20,7 @@ jobs:
           lfs: true
 
       - name: Verify build
+        shell: bash
         run: |
           test -d game
           test -n "$(find game -type f -print -quit)"
