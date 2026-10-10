@@ -1,3 +1,4 @@
+
 name: Generate Game Manifest
 
 on:
@@ -11,40 +12,68 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: game-manifest
+  cancel-in-progress: false
+
 jobs:
   manifest:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          lfs: true
 
       - name: Generate manifest
+        env:
+          BUILD_VERSION: ${{ github.sha }}
         run: |
           python3 - <<'PY'
-          import os, json, hashlib
+          import os
+          import json
+          import hashlib
 
           files = {}
 
           for root, _, names in os.walk("game"):
-              for name in names:
+              for name in sorted(names):
                   path = os.path.join(root, name)
-                  relative = os.path.relpath(path, "game").replace("\\", "/")
+                  relative = os.path.relpath(
+                      path, "game"
+                  ).replace("\\", "/")
 
                   with open(path, "rb") as f:
-                      sha = hashlib.file_digest(f, "sha256").hexdigest()
+                      sha = hashlib.file_digest(
+                          f, "sha256"
+                      ).hexdigest()
 
                   files[relative] = {
                       "sha256": sha,
                       "size": os.path.getsize(path)
                   }
 
-          with open("manifest.json", "w") as f:
-              json.dump({"files": files}, f, indent=2)
+          manifest = {
+              "version": os.environ["BUILD_VERSION"][:7],
+              "files": files
+          }
+
+          with open("manifest.json", "w", encoding="utf-8") as f:
+              json.dump(manifest, f, indent=2)
+
+          print("Version:", manifest["version"])
+          print("Files:", len(files))
           PY
 
       - name: Commit manifest
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add manifest.json
-          git diff --cached --quiet || (git commit -m "Update manifest" && git push)
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Update manifest"
+            git push
+          fi
